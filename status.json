@@ -1,0 +1,65 @@
+[
+    {
+      "status": "down",
+      "affectedServices": "all",
+      "summary": "Scheduled power maintenance: JASMIN unavailable",
+      "date": "2023-10-23T08:00",
+      "updates": [
+        {
+          "date": "2023-10-30T08:00",
+          "details": "Shutdown and electrical maintenance work in progress"
+        },
+        {
+          "date": "2023-10-23T08:00",
+          "details": "Shutdown timeline announced.",
+          "url": "https://www.ceda.ac.uk/blog/reminder-advance-notice-of-jasmin-power-maintenance-autumn-2023/"
+        },
+        {
+          "date": "2023-08-03T08:00",
+          "details": "Date announced alongside more information regarding shutdown and our impact reduction plan.",
+          "url": "https://www.ceda.ac.uk/blog/two-week-offline-period-for-all-jasmin-and-ceda-services-in-october/"
+        },
+        {
+          "date": "2023-07-26T08:00",
+          "details": "Further information will be shared in due course. We currently have limited information from our host institution.",
+          "url": "https://www.ceda.ac.uk/blog/advance-notice-of-jasmin-power-maintenance-autumn-2023/"
+        }
+      ]
+    },
+    {
+      "status": "down",
+      "affectedServices": "Tape services",
+      "summary": "Tape services unavailable",
+      "date": "",
+      "updates": [
+        {
+          "date": "",
+          "details": "Tape services currently unavailable, issue being investigated"
+        }
+      ]
+    },
+    {
+      "status": "at risk",
+      "affectedServices": "All services",
+      "summary": "All services at risk due to network issue",
+      "date": "",
+      "updates": [
+        {
+          "date": "",
+          "details": "Network component failure overnight has caused temporary outages to many JASMIN and CEDA services. Interventions have been partially successful but those systems now working remain at risk. Some LOTUS jobs may have failed. *At risk* status likely to remain in place for some time (weeks) while a permanent solution is sought."
+        }
+      ]
+    },
+    {
+      "status": "at risk",
+      "affectedServices": "LOTUS cluster, sci machines, software, SMF",
+      "summary": "Storage and network at risk",
+      "date": "",
+      "updates": [
+        {
+          "date": "",
+          "details": "Storage for /gws/smf/* and /apps/jasmin now migrated. No change to users. Other systems mounting above storage to be rebooted: tenancy sci machine managers recommended to reboot their own sci machines via the cloud portal. LOTUS queues now reopened but throughput initially slow while some nodes being rebooted. Network currently stable but at risk until further intervention"
+        }
+      ]
+    }
+  ]
