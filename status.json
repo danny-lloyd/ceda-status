@@ -30,10 +30,10 @@
       "status": "down",
       "affectedServices": "Tape services",
       "summary": "Tape services unavailable",
-      "date": "",
+      "date": "2023-10-18T08:00:00",
       "updates": [
         {
-          "date": "",
+          "date": "2023-10-18T08:00:00",
           "details": "Tape services currently unavailable, issue being investigated"
         }
       ]
@@ -42,23 +42,11 @@
       "status": "at risk",
       "affectedServices": "All services",
       "summary": "All services at risk due to network issue",
-      "date": "",
+      "date": "2023-10-13T20:15:00",
       "updates": [
         {
-          "date": "",
+          "date": "2023-10-13T20:15:00",
           "details": "Network component failure overnight has caused temporary outages to many JASMIN and CEDA services. Interventions have been partially successful but those systems now working remain at risk. Some LOTUS jobs may have failed. *At risk* status likely to remain in place for some time (weeks) while a permanent solution is sought."
-        }
-      ]
-    },
-    {
-      "status": "at risk",
-      "affectedServices": "LOTUS cluster, sci machines, software, SMF",
-      "summary": "Storage and network at risk",
-      "date": "",
-      "updates": [
-        {
-          "date": "",
-          "details": "Storage for /gws/smf/* and /apps/jasmin now migrated. No change to users. Other systems mounting above storage to be rebooted: tenancy sci machine managers recommended to reboot their own sci machines via the cloud portal. LOTUS queues now reopened but throughput initially slow while some nodes being rebooted. Network currently stable but at risk until further intervention"
         }
       ]
     }
