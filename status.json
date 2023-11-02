@@ -6,6 +6,10 @@
       "date": "2023-10-23T08:00",
       "updates": [
         {
+          "date": "2023-11-02T15:00",
+          "details": "LOTUS cluster is now available, although with some nodes still out of service. Please await further updates for full availability."
+        },
+        {
           "date": "2023-11-01T16:15",
           "details": "Most subsystems are now back up with the exception of SLURM (the scheduler used for LOTUS and ORCHID clusters) and  Object Storage. Login, (most) sci and xfer servers are accessible again, but any services reliant on LOTUS, Object Storage (e.g some web-based services) are not yet available. Please await further updates for full availability."
         },
