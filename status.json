@@ -7,7 +7,7 @@
       "updates": [
         {
           "date": "2023-11-02T15:00",
-          "details": "LOTUS cluster is now available, although with some nodes still out of service. Please await further updates for full availability."
+          "details": "LOTUS cluster is now available, although with some nodes still out of service. ORCHID GPU cluster now has 4 nodes available. Please await further updates for full availability."
         },
         {
           "date": "2023-11-01T16:15",
