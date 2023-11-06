@@ -1,5 +1,17 @@
 [
     {
+      "status": "at risk",
+      "affectedServices": "Globus data transfers",
+      "summary": "JASMIN Globus endpoint replacement",
+      "date": "2023-11-29T08:00:00",
+      "updates": [
+        {
+          "date": "2023-11-29T08:00:00",
+          "details": "The JASMIN Globus endpoint used for data transfers using the Globus online service will need to be replaced before mid-December. Exact dates TBC, please look out for further announcements if you use Globus to transfer data to/from JASMIN."
+        }
+      ]
+    },
+    {
       "status": "normal",
       "affectedServices": "all",
       "summary": "Scheduled power maintenance: work now completed",
