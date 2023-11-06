@@ -1,10 +1,14 @@
 [
     {
-      "status": "degraded",
+      "status": "normal",
       "affectedServices": "all",
-      "summary": "Scheduled power maintenance: JASMIN unavailable",
+      "summary": "Scheduled power maintenance: work now completed",
       "date": "2023-10-23T08:00",
       "updates": [
+        {
+          "date": "2023-11-06T10:30",
+          "details": "All systems reported to be operating normally, please report any issues to the relevant helpdesk."
+        },
         {
           "date": "2023-11-03T16:40",
           "details": "LOTUS and ORCHID now at 99% of normal operation. Object Storage anticipated back in service on Monday. Please await further updates for full availability."
