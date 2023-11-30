@@ -12,26 +12,14 @@
       ]
     },
     {
-      "status": "normal",
-      "affectedServices": "all",
-      "summary": "Scheduled power maintenance: work now completed",
-      "date": "2023-10-23T08:00",
+      "status": "degraded",
+      "affectedServices": "PFS storage, LOTUS",
+      "summary": "Issues with Parallel File System storage.",
+      "date": "2023-11-30T15:00:00",
       "updates": [
         {
-          "date": "2023-11-06T10:30",
-          "details": "All systems reported to be operating normally, please report any issues to the relevant helpdesk."
-        }
-      ]
-    },
-    {
-      "status": "normal",
-      "affectedServices": "Tape services",
-      "summary": "Tape services unavailable",
-      "date": "2023-10-18T08:00:00",
-      "updates": [
-        {
-          "date": "2023-11-03T08:00:00",
-          "details": "Return to normal service."
+          "date": "2023-11-30T15:00:00",
+          "details": "Issue under investigation with storage vendor. LOTUS queues have been set down: jobs already running will continue, new jobs can be submitted but will be held queue until scheduling is reinstated."
         }
       ]
     },
