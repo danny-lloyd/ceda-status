@@ -12,11 +12,15 @@
       ]
     },
     {
-      "status": "degraded",
+      "status": "normal",
       "affectedServices": "PFS storage, LOTUS",
       "summary": "Issues with Parallel File System storage.",
       "date": "2023-11-30T15:00:00",
       "updates": [
+        {
+          "date": "2023-12-03T15:00:00",
+          "details": "Storage volumes have now been reconstructed and are operating normally. LOTUS queues now resumed."
+        },
         {
           "date": "2023-11-30T15:00:00",
           "details": "Issue under investigation with storage vendor. LOTUS queues have been set down: jobs already running will continue, new jobs can be submitted but will be held queue until scheduling is reinstated."
