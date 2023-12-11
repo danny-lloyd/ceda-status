@@ -1,5 +1,17 @@
 [
   {
+    "status": "down",
+    "affectedServices": "JASMIN accounts portal",
+    "summary": "Scheduled maintenance",
+    "date": "2023-12-14T14:00:00",
+    "updates": [
+        {
+            "date": "2023-12-11T14:00:00",
+            "details": "The JASMIN accounts portal will be unavailable for a short period on Thursday afternoon 14 Dec 2023 to enable its database to be moved to a new server. During this time users will be unable to create new accounts, change their SSH keys or apply for access to services."
+        }
+    ]
+  },
+  {
       "status": "at risk",
       "affectedServices": "CEDA website & catalogue services",
       "summary": "Scheduled maintenance",
