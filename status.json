@@ -1,6 +1,18 @@
 [
   {
     "status": "down",
+    "affectedServices": "specified servers",
+    "summary": "Scheduled reboot to configure backup ops.",
+    "date": "2023-12-19T09:00:00",
+    "updates": [
+        {
+            "date": "2023-12-13T19:30:00",
+            "details": "The following servers will be rebooted: cron1.ceda.ac.uk (aka cron.jasmin.ac.uk) et2.jasmin.ac.uk etp1.jasmin.ac.uk gws-access2.ceda.ac.uk (aka gws-access.jasmin.ac.uk) moose1.jc.rl.ac.uk rook-wps1.ceda.ac.uk rsg-nrt1.jasmin.ac.uk sci1.jasmin.ac.uk sci2.jasmin.ac.uk sci4.jasmin.ac.uk xfer1.jasmin.ac.uk xfer3.jasmin.ac.uk"
+        }
+    ]
+  },
+  {
+    "status": "down",
     "affectedServices": "JASMIN accounts portal",
     "summary": "Scheduled maintenance",
     "date": "2023-12-14T14:00:00",
