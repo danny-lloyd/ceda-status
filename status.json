@@ -25,18 +25,6 @@
   },
   {
       "status": "at risk",
-      "affectedServices": "CEDA website & catalogue services",
-      "summary": "Scheduled maintenance",
-      "date": "2023-12-12T08:00:00",
-      "updates": [
-          {
-              "date": "2023-12-11T11:00:00",
-              "details": "CEDA website at www.ceda.ac.uk may be unavailable on the morning of Tues 12 Dec due to scheduled maintenance. Bug fixes/enhancements also planned for the CEDA catalogue service during this period."
-          }
-      ]
-  },
-  {
-      "status": "at risk",
       "affectedServices": "Globus data transfers",
       "summary": "JASMIN Globus endpoint replacement",
       "date": "2023-11-29T08:00:00",
@@ -53,11 +41,15 @@
       ]
   },
   {
-      "status": "degraded",
+      "status": "at risk",
       "affectedServices": "All services",
       "summary": "All services at risk due to network issue",
       "date": "2023-10-13T20:15:00",
       "updates": [
+          {
+            "date": "2023-12-12T11:00:00",
+            "details": "Specific issue affecting LOTUS, physical sci machines (sci3,6,8) and object storage now resolved, background risk remains."
+          },
           {
               "date": "2023-12-12T10:00:00",
               "details": "Network issue currently affecting LOTUS, physical sci machines (sci3,6,8) and object storage. Other dependent services may also be affected. Technical staff actively investigating."
