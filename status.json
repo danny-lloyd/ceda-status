@@ -1,4 +1,16 @@
 [
+{
+   "status": "degraded",
+   "affectedServices": "SOF storage and cloud infrastructure",
+   "summary": "Network issue affecting SOF storage and JASMIN cloud infrastructure",
+   "date": "2023-12-18T09:10:00",
+   "updates": [
+       {
+        "date": "2023-12-18T09:10:00",
+        "details": "A network issue issue is currently causing SOF storage (used for CEDA Archive volumes and GWS /gws/nopw/j04/* storage) and parts of the JASMIN cloud and dependent services to be unavailable. The issue is currently under investigation."
+       }
+    ]
+  },
  {
    "status": "down",
    "affectedServices": "tape services",
@@ -61,26 +73,6 @@
           {
               "date": "2023-11-29T08:00:00",
               "details": "The JASMIN Globus endpoint used for data transfers using the Globus online service will need to be replaced before mid-December. Exact dates TBC, please look out for further announcements if you use Globus to transfer data to/from JASMIN."
-          }
-      ]
-  },
-  {
-      "status": "at risk",
-      "affectedServices": "All services",
-      "summary": "All services at risk due to network issue",
-      "date": "2023-10-13T20:15:00",
-      "updates": [
-          {
-              "date": "2023-12-12T11:00:00",
-              "details": "Specific issue affecting LOTUS, physical sci machines (sci3,6,8) and object storage now resolved, background risk remains."
-          },
-          {
-              "date": "2023-12-12T10:00:00",
-              "details": "Network issue currently affecting LOTUS, physical sci machines (sci3,6,8) and object storage. Other dependent services may also be affected. Technical staff actively investigating."
-          },
-          {
-              "date": "2023-10-13T20:15:00",
-              "details": "Network component failure overnight has caused temporary outages to many JASMIN and CEDA services. Interventions have been partially successful but those systems now working remain at risk. Some LOTUS jobs may have failed. *At risk* status likely to remain in place for some time (weeks) while a permanent solution is sought."
           }
       ]
   }
