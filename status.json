@@ -64,13 +64,17 @@
     ]
   },
   {
-      "status": "at risk",
+      "status": "normal",
       "affectedServices": "Globus data transfers",
       "summary": "JASMIN Globus endpoint replacement",
       "date": "2023-11-29T08:00:00",
       "updates": [
           {
-              "date": "2023-12-29T11:00:00",
+              "date": "2023-12-18T18:45:00",
+              "details": "Old JASMIN Globus Endpoint now decommissioned. Please use new one linked below."
+          },
+          {
+              "date": "2023-11-29T11:00:00",
               "details": "See link for details of new endpoint. Existing endpoint will cease to operate on 18 Dec 2023.",
               "url": "https://help.jasmin.ac.uk/article/5106-globus-transfers-with-jasmin"
           },
