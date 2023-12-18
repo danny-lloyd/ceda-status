@@ -1,10 +1,14 @@
 [
 {
-   "status": "degraded",
+   "status": "at risk",
    "affectedServices": "SOF storage and cloud infrastructure, LOTUS cluster.",
    "summary": "Network issue affecting SOF storage and JASMIN cloud infrastructure",
    "date": "2023-12-18T09:10:00",
    "updates": [
+       {
+        "date": "2023-12-18T12:30:00",
+        "details": "Cloud infrastructure is now looking better, SOF storage is now operational but remains at risk."
+       },
        {
         "date": "2023-12-18T09:10:00",
         "details": "A network issue issue is currently causing SOF storage (used for CEDA Archive volumes and GWS /gws/nopw/j04/* storage) and parts of the JASMIN cloud and dependent services to be unavailable. This may also be causing job failures on LOTUS. The issue is currently under investigation."
