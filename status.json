@@ -24,15 +24,19 @@
      ]
    },
    {
-      "status": "down",
+      "status": "normal",
       "affectedServices": "Globus data transfers",
       "summary": "Issue with JASMIN globus servers",
       "date": "2024-01-03T09:00:00",
       "updates": [
-          {
-              "date": "2024-01-03T09:00:00",
-              "details": "Issue has been reported, currently under investigation."
-          }
+        {
+          "date": "2024-01-03T10:00:00",
+          "details": "Issue now resolved, please report any further problems to the helpdesk."
+        },
+        {
+          "date": "2024-01-03T09:00:00",
+          "details": "Issue has been reported, currently under investigation."
+        }
       ]
   }
 ]
