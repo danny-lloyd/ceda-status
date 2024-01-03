@@ -1,20 +1,4 @@
 [
-{
-   "status": "at risk",
-   "affectedServices": "SOF storage and cloud infrastructure, LOTUS cluster.",
-   "summary": "Network issue affecting SOF storage and JASMIN cloud infrastructure",
-   "date": "2023-12-18T09:10:00",
-   "updates": [
-       {
-        "date": "2023-12-18T12:30:00",
-        "details": "Cloud infrastructure is now looking better, SOF storage is now operational but remains at risk."
-       },
-       {
-        "date": "2023-12-18T09:10:00",
-        "details": "A network issue issue is currently causing SOF storage (used for CEDA Archive volumes and GWS /gws/nopw/j04/* storage) and parts of the JASMIN cloud and dependent services to be unavailable. This may also be causing job failures on LOTUS. The issue is currently under investigation."
-       }
-    ]
-  },
  {
    "status": "down",
    "affectedServices": "tape services",
@@ -39,44 +23,15 @@
         }
      ]
    },
-  {
-    "status": "down",
-    "affectedServices": "specified servers",
-    "summary": "Scheduled reboot to configure backup ops, between 09:00 - 11:00.",
-    "date": "2023-12-19T09:00:00",
-    "updates": [
-        {
-            "date": "2023-12-13T19:30:00",
-            "details": "The following servers will be rebooted: cron1.ceda.ac.uk (aka cron.jasmin.ac.uk) et2.jasmin.ac.uk etp1.jasmin.ac.uk gws-access2.ceda.ac.uk (aka gws-access.jasmin.ac.uk) moose1.jc.rl.ac.uk rook-wps1.ceda.ac.uk rsg-nrt1.jasmin.ac.uk sci1.jasmin.ac.uk sci2.jasmin.ac.uk sci4.jasmin.ac.uk xfer1.jasmin.ac.uk xfer3.jasmin.ac.uk"
-        }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "JASMIN accounts portal",
-    "summary": "Scheduled maintenance",
-    "date": "2023-12-14T14:00:00",
-    "updates": [
-        {
-            "date": "2023-12-11T14:00:00",
-            "details": "The JASMIN accounts portal will be unavailable for a short period on Thursday afternoon 14 Dec 2023 to enable its database to be moved to a new server. During this time users will be unable to create new accounts, change their SSH keys or apply for access to services."
-        }
-    ]
-  },
-  {
-      "status": "normal",
+   {
+      "status": "down",
       "affectedServices": "Globus data transfers",
-      "summary": "JASMIN Globus endpoint replacement",
-      "date": "2023-11-29T08:00:00",
+      "summary": "Issue with JASMIN globus servers",
+      "date": "2024-01-03T09:00:00",
       "updates": [
           {
-              "date": "2023-12-18T18:45:00",
-              "details": "Old JASMIN Globus Endpoint now decommissioned. Please use new one linked below."
-          },
-          {
-              "date": "2023-11-29T11:00:00",
-              "details": "See link for details of new endpoint. Old endpoint will cease to operate on 18 Dec 2023.",
-              "url": "https://help.jasmin.ac.uk/article/5106-globus-transfers-with-jasmin"
+              "date": "2024-01-03T09:00:00",
+              "details": "Issue has been reported, currently under investigation."
           }
       ]
   }
