@@ -1,4 +1,17 @@
 [
+{
+  "status": "at risk",
+  "affectedServices": "all services",
+  "summary": "Scheduled maintenance/patch day.",
+  "date": "2024-01-16T08:00:00",
+  "updates": [
+      {
+       "date": "2024-01-03T08:00:00",
+       "details": "Regular maintenance day including LOTUS reservation and patching and rebooting of servers.",
+       "url": "https://www.ceda.ac.uk/news/updates/2024/2024-01-03-jasmin-updates/"
+      }
+   ]
+ },
  {
    "status": "down",
    "affectedServices": "tape services",
