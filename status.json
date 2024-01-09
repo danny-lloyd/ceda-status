@@ -37,6 +37,18 @@
      ]
    },
    {
+    "status": "down",
+    "affectedServices": "tape services",
+    "summary": "Scheduled maintenance for backend software upgrade.",
+    "date": "2024-01-22T09:00:00",
+    "updates": [
+        {
+         "date": "2023-12-18T09:00:00",
+         "details": "Tape services (including NLA, StorageD, ET and JDMA) will be paused at 09:00 on Monday 22nd January 2023 to upgrades to backend software used in the tape infrastructure."
+        }
+     ]
+   },
+   {
       "status": "degraded",
       "affectedServices": "Globus data transfers",
       "summary": "Issue with JASMIN globus servers",
