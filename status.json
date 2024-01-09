@@ -51,7 +51,7 @@
    {
       "status": "degraded",
       "affectedServices": "Globus data transfers",
-      "summary": "Issue with JASMIN globus servers",
+      "summary": "Performance issue with globus transfers",
       "date": "2024-01-09T09:00:00",
       "updates": [
         {
