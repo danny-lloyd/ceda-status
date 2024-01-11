@@ -1,4 +1,17 @@
 [
+  {
+    "status": "degraded",
+    "affectedServices": "JASMIN helpdesk email",
+    "summary": "Some emails not reaching JASMIN helpdesk",
+    "date": "2024-01-11T09:30:00",
+    "updates": [
+        {
+         "date": "2024-01-11T09:30:00",
+         "details": "Issue being investigated. Please use help beacon on JASMIN website meanwhile.",
+         "url": "https://www.jasmin.ac.uk"
+        }
+     ]
+   },
 {
   "status": "at risk",
   "affectedServices": "all services",
@@ -12,18 +25,6 @@
       }
    ]
  },
- {
-   "status": "down",
-   "affectedServices": "tape services",
-   "summary": "Scheduled maintenance for database cluster patching.",
-   "date": "2024-01-09T12:00:00",
-   "updates": [
-       {
-        "date": "2023-12-18T09:00:00",
-        "details": "Tape services (including NLA, StorageD, ET and JDMA) will be paused at midday on Tuesday 9th January 2023 to enable database cluster patching on Wednesday 10th January."
-       }
-    ]
-  },
   {
     "status": "at risk",
     "affectedServices": "tape services",
