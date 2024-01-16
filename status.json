@@ -1,10 +1,14 @@
 [
   {
-    "status": "degraded",
+    "status": "normal",
     "affectedServices": "JASMIN helpdesk email",
     "summary": "Some emails not reaching JASMIN helpdesk",
     "date": "2024-01-11T09:30:00",
     "updates": [
+        {
+          "date": "2024-01-16T12:00:00",
+          "details": "Issue now resolved. Some duplicates being processed, please resume using support@jasmin.ac.uk or jasmin help beacon, and contact us again if your query has not been answered by end of this week."
+        },
         {
          "date": "2024-01-12T10:30:00",
          "details": "Issue still being investigated. Use CEDA helpdesk email for now support@ceda.ac.uk."
@@ -21,6 +25,10 @@
   "summary": "Scheduled maintenance/patch day.",
   "date": "2024-01-16T08:00:00",
   "updates": [
+      {
+       "date": "2024-01-16T17:00:00",
+       "details": "Work mostly complete but some services still undergoing maintenance: VMs done, PFS storage done, JASMIN Cloud & LOTUS still in progress."
+      },
       {
        "date": "2024-01-03T08:00:00",
        "details": "Regular maintenance day including LOTUS reservation and patching and rebooting of servers.",
