@@ -1,5 +1,17 @@
 [
   {
+    "status": "degraded",
+    "affectedServices": "SOF storage",
+    "summary": "Issues with storage system affecting /gws/nopw/j04/* GWSs and CEDA archive",
+    "date": "2024-01-19T11:00:00",
+    "updates": [
+      {
+        "date": "2024-01-19T11:00:00",
+        "details": "Issue identified and work to resolve is underway"
+      }
+    ]
+  },
+  {
       "status": "degraded",
       "affectedServices": "Data download web service (data.ceda.ac.uk)",
       "summary": "Intermittent CEDA data download issues",
@@ -21,14 +33,6 @@
         {
           "date": "2024-01-16T12:00:00",
           "details": "Issue now resolved. Some duplicates being processed, please resume using support@jasmin.ac.uk or jasmin help beacon, and contact us again if your query has not been answered by end of this week."
-        },
-        {
-         "date": "2024-01-12T10:30:00",
-         "details": "Issue still being investigated. Use CEDA helpdesk email for now support@ceda.ac.uk."
-        },
-        {
-         "date": "2024-01-11T09:30:00",
-         "details": "Issue being investigated."
         }
      ]
    },
@@ -36,9 +40,13 @@
   "status": "at risk",
   "affectedServices": "all services",
   "summary": "Scheduled maintenance/patch day.",
-  "date": "2024-01-16T08:00:00",
+  "date": "2024-01-18T17:00:00",
   "updates": [
-      {
+    {
+      "date": "2024-01-19T11:00:00",
+      "details": "Work on JASMIN Cloud still in progress as of yesterday, affecting API for managing cloud tenancies."
+     },
+     {
        "date": "2024-01-16T17:00:00",
        "details": "Work mostly complete but some services still undergoing maintenance: VMs done, PFS storage done, JASMIN Cloud & LOTUS still in progress."
       },
@@ -49,18 +57,6 @@
       }
    ]
  },
-  {
-    "status": "at risk",
-    "affectedServices": "tape services",
-    "summary": "Scheduled maintenance for switch upgrades",
-    "date": "2024-01-15T12:00:00",
-    "updates": [
-        {
-         "date": "2023-12-18T09:00:00",
-         "details": "To be confirmed: Tape services (including NLA, StorageD, ET and JDMA) will be paused at least one working day ahead of 15th January to enable switch upgrade work to take place. Please look out for confirmation and further details."
-        }
-     ]
-   },
    {
     "status": "down",
     "affectedServices": "tape services",
