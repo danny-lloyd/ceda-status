@@ -1,6 +1,18 @@
 [
   {
     "status": "down",
+    "affectedServices": "xfer hosts",
+    "summary": "xfer hosts currently not available",
+    "date": "2024-01-22T10:30:00",
+    "updates": [
+      {
+        "date": "2024-01-22T10:30:00",
+        "details": "Issue being investigated."
+      }
+    ]
+  },
+  {
+    "status": "down",
     "affectedServices": "SOF storage, LOTUS",
     "summary": "Storage issues affecting /gws/nopw/j04/* GWSs and CEDA archive & causing LOTUS jobs to fail.",
     "date": "2024-01-19T11:00:00",
