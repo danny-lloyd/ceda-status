@@ -37,24 +37,19 @@
      ]
    },
 {
-  "status": "at risk",
+  "status": "normal",
   "affectedServices": "all services",
   "summary": "Scheduled maintenance/patch day.",
   "date": "2024-01-18T17:00:00",
   "updates": [
     {
+      "date": "2024-01-22T09:00:00",
+      "details": "JASMIN Cloud portal now operational again."
+    },
+    {
       "date": "2024-01-19T11:00:00",
       "details": "Work on JASMIN Cloud still in progress as of yesterday, affecting API for managing cloud tenancies."
-     },
-     {
-       "date": "2024-01-16T17:00:00",
-       "details": "Work mostly complete but some services still undergoing maintenance: VMs done, PFS storage done, JASMIN Cloud & LOTUS still in progress."
-      },
-      {
-       "date": "2024-01-03T08:00:00",
-       "details": "Regular maintenance day including LOTUS reservation and patching and rebooting of servers.",
-       "url": "https://www.ceda.ac.uk/news/updates/2024/2024-01-03-jasmin-updates/"
-      }
+     }
    ]
  },
    {
