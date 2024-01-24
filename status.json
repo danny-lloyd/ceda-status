@@ -1,37 +1,5 @@
 [
   {
-    "status": "normal",
-    "affectedServices": "xfer hosts",
-    "summary": "xfer hosts currently not available",
-    "date": "2024-01-22T10:30:00",
-    "updates": [
-      {
-        "date": "2024-01-22T11:30:00",
-        "details": "Issue now resolved, hosts were rebooted."
-      },
-      {
-        "date": "2024-01-22T10:30:00",
-        "details": "Issue being investigated."
-      }
-    ]
-  },
-  {
-    "status": "normal",
-    "affectedServices": "SOF storage, LOTUS",
-    "summary": "Storage issues affecting /gws/nopw/j04/* GWSs and CEDA archive & causing LOTUS jobs to fail.",
-    "date": "2024-01-19T11:00:00",
-    "updates": [
-      {
-        "date": "2024-01-22T11:40:00",
-        "details": "Issues now resolved: please report any further problems to the helpdesk."
-      },
-      {
-        "date": "2024-01-22T09:00:00",
-        "details": "Further problems occurred over the weekend: cause has now been identified and remedial work is underway. LOTUS hosts removed from cluster meanwhile."
-      }
-    ]
-  },
-  {
       "status": "degraded",
       "affectedServices": "Data download web service (data.ceda.ac.uk)",
       "summary": "Intermittent CEDA data download issues",
@@ -44,40 +12,16 @@
         }
       ]
   },
-  {
-    "status": "normal",
-    "affectedServices": "JASMIN helpdesk email",
-    "summary": "Some emails not reaching JASMIN helpdesk",
-    "date": "2024-01-11T09:30:00",
-    "updates": [
-        {
-          "date": "2024-01-16T12:00:00",
-          "details": "Issue now resolved. Some duplicates being processed, please resume using support@jasmin.ac.uk or jasmin help beacon, and contact us again if your query has not been answered by end of this week."
-        }
-     ]
-   },
-{
-  "status": "normal",
-  "affectedServices": "all services",
-  "summary": "Scheduled maintenance/patch day.",
-  "date": "2024-01-18T17:00:00",
-  "updates": [
-    {
-      "date": "2024-01-22T09:00:00",
-      "details": "JASMIN Cloud portal now operational again."
-    },
-    {
-      "date": "2024-01-19T11:00:00",
-      "details": "Work on JASMIN Cloud still in progress as of yesterday, affecting API for managing cloud tenancies."
-     }
-   ]
- },
    {
-    "status": "down",
+    "status": "normal",
     "affectedServices": "tape services",
     "summary": "Scheduled maintenance for backend software upgrade.",
     "date": "2024-01-22T09:00:00",
     "updates": [
+        {
+         "date": "2024-01-23T17:00:00",
+         "details": "Tape services now available again"
+        },
         {
          "date": "2023-12-18T09:00:00",
          "details": "Tape services (including NLA, StorageD, ET and JDMA) will be paused at 09:00 on Monday 22nd January 2023 to upgrades to backend software used in the tape infrastructure."
