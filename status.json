@@ -1,43 +1,50 @@
 [
   {
-      "status": "degraded",
-      "affectedServices": "Data download web service (data.ceda.ac.uk)",
-      "summary": "Intermittent CEDA data download issues",
-      "date": "2024-01-17T16:00:00",
-      "updates": [
-        {
-          "date": "2024-01-17T16:00:00",
-          "details": "Identified cause and working to resolve as quick as possible.",
-          "url": "https://www.ceda.ac.uk/news/updates/2024/2024-01-17-intermittent-data-download-issues/"
-        }
-      ]
+    "status": "degraded",
+    "affectedServices": "Data download web service (data.ceda.ac.uk)",
+    "summary": "Intermittent CEDA data download issues",
+    "date": "2024-01-17T16:00",
+    "updates": [
+      {
+        "date": "2024-01-17T16:00",
+        "details": "Identified cause and working to resolve as quick as possible.",
+        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-01-17-intermittent-data-download-issues/"
+      }
+    ]
   },
-   {
+  {
     "status": "normal",
     "affectedServices": "tape services",
     "summary": "Scheduled maintenance for backend software upgrade.",
-    "date": "2024-01-22T09:00:00",
+    "date": "2024-01-22T09:00",
     "updates": [
-        {
-         "date": "2024-01-23T17:00:00",
-         "details": "Tape services now available again"
-        },
-        {
-         "date": "2023-12-18T09:00:00",
-         "details": "Tape services (including NLA, StorageD, ET and JDMA) will be paused at 09:00 on Monday 22nd January 2023 to upgrades to backend software used in the tape infrastructure."
-        }
-     ]
-   },
-   {
-      "status": "degraded",
-      "affectedServices": "Globus data transfers",
-      "summary": "Performance issue with globus transfers",
-      "date": "2024-01-09T09:00:00",
-      "updates": [
-        {
-          "date": "2024-01-09T09:00:00",
-          "details": "Slow performance reported: investigating."
-        }
-      ]
+      {
+        "date": "2024-01-23T17:00",
+        "details": "Tape services now available again"
+      },
+      {
+        "date": "2023-12-18T09:00",
+        "details": "Tape services (including NLA, StorageD, ET and JDMA) will be paused at 09:00 on Monday 22nd January 2023 to upgrades to backend software used in the tape infrastructure."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Globus data transfers",
+    "summary": "Performance issue with globus transfers",
+    "date": "2024-01-09T09:00",
+    "updates": [
+      {
+        "date": "2024-01-09T09:00",
+        "details": "Slow performance reported: investigating."
+      }
+    ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "hpxfer1",
+    "summary": "reboot of server hpxfer1.jasmin to clear stuck processes",
+    "date": "2024-01-26T08:00",
+    "updates": []
   }
 ]
