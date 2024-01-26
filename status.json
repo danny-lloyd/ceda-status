@@ -35,6 +35,10 @@
     "date": "2024-01-09T09:00",
     "updates": [
       {
+        "date": "2024-01-26T11:30",
+        "details": "Investigative work ongoing, attaching new data transfer node. Some interruptions may result so transfers may be slower than normal."
+      },
+      {
         "date": "2024-01-09T09:00",
         "details": "Slow performance reported: investigating."
       }
