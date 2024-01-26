@@ -41,10 +41,15 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "normal",
     "affectedServices": "hpxfer1",
     "summary": "reboot of server hpxfer1.jasmin to clear stuck processes",
     "date": "2024-01-26T08:00",
-    "updates": []
+    "updates": [
+      {
+        "date": "2024-01-26T09:00",
+        "details": "Reboot completed"
+      }
+    ]
   }
 ]
