@@ -45,14 +45,14 @@
     ]
   },
   {
-    "status": "normal",
-    "affectedServices": "hpxfer1",
-    "summary": "reboot of server hpxfer1.jasmin to clear stuck processes",
-    "date": "2024-01-26T08:00",
+    "status": "degraded",
+    "affectedServices": "Storage",
+    "summary": "Issues with SOF and SSD storage",
+    "date": "2024-01-29T09:30",
     "updates": [
       {
-        "date": "2024-01-26T09:00",
-        "details": "Reboot completed"
+        "date": "2024-01-29T09:30",
+        "details": "Investigating: Some issues with QuoByte (SOF) storage (ceda archive and /gws/nopw/j04/* GWSs) over the weekend. Also some issues reported with HOME and /work/scratch-nopw2."
       }
     ]
   }
