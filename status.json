@@ -59,5 +59,17 @@
         "details": "Investigating: Some issues with QuoByte (SOF) storage (ceda archive and /gws/nopw/j04/* GWSs) over the weekend. Also some issues reported with HOME and /work/scratch-nopw2."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "transfer server xfer1",
+    "summary": "Reboot required",
+    "date": "2024-01-31T08:00",
+    "updates": [
+      {
+        "date": "2024-01-29T17:30",
+        "details": "Transfer server xfer1.jasmin.ac.uk will need to be rebooted at 2024-01-3108:00 to clear stuck processes."
+      }
+    ]
   }
 ]
