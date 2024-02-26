@@ -25,18 +25,14 @@
     ]
   },
   {
-    "status": "normal",
+    "status": "down",
     "affectedServices": "tape services",
-    "summary": "Scheduled maintenance for backend software upgrade.",
-    "date": "2024-01-22T09:00",
+    "summary": "hardware problem causing performance issues",
+    "date": "2024-02-22T14:30",
     "updates": [
       {
-        "date": "2024-01-23T17:00",
-        "details": "Tape services now available again"
-      },
-      {
-        "date": "2023-12-18T09:00",
-        "details": "Tape services (including NLA, StorageD, ET and JDMA) will be paused at 09:00 on Monday 22nd January 2023 to upgrades to backend software used in the tape infrastructure."
+        "date": "2024-02-22T14:30",
+        "details": "Intervention and repair planned between Mon 26 Feb - Wed 28 Feb during which time tape services will be unvailable."
       }
     ]
   },
@@ -69,18 +65,6 @@
       {
         "date": "2024-01-29T09:30",
         "details": "Investigating: Some issues with QuoByte (SOF) storage (ceda archive and /gws/nopw/j04/* GWSs) over the weekend. Also some issues reported with HOME and /work/scratch-nopw2."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "transfer server xfer1",
-    "summary": "Reboot required",
-    "date": "2024-01-31T08:00",
-    "updates": [
-      {
-        "date": "2024-01-29T17:30",
-        "details": "Transfer server xfer1.jasmin.ac.uk will need to be rebooted at 2024-01-3108:00 to clear stuck processes."
       }
     ]
   }
