@@ -1,6 +1,18 @@
 [
   {
     "status": "degraded",
+    "affectedServices": "SOF storage, LOTUS cluster",
+    "summary": "Issues with SOF storage affecting /gws/nopw/j04/* GWSs and impacting LOTUS jobs",
+    "date": "2024-02-26T09:00",
+    "updates": [
+      {
+        "date": "2024-02-26T09:00",
+        "details": "Issue under investigation"
+      }
+    ]
+  },
+  {
+    "status": "degraded",
     "affectedServices": "Data download web service (data.ceda.ac.uk)",
     "summary": "Intermittent CEDA data download issues",
     "date": "2024-01-17T16:00",
