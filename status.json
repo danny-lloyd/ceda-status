@@ -1,10 +1,14 @@
 [
   {
     "status": "degraded",
-    "affectedServices": "SOF storage, LOTUS cluster",
-    "summary": "Issues with SOF storage affecting /gws/nopw/j04/* GWSs and impacting LOTUS jobs",
+    "affectedServices": "SOF storage, LOTUS cluster, CEDA Archive, sci machines",
+    "summary": "Issues with SOF storage affecting many services.",
     "date": "2024-02-26T09:00",
     "updates": [
+      {
+        "date": "2024-02-27T10:40",
+        "details": "Issue receiving urgent attention from system team. LOTUS jobs currently unavailable (new jobs held in queues). Many hosts unresponsive due to mounting affecting storage system."
+      },
       {
         "date": "2024-02-26T09:00",
         "details": "Issue under investigation"
