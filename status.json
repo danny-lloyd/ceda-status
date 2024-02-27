@@ -1,6 +1,6 @@
 [
   {
-    "status": "degraded",
+    "status": "at risk",
     "affectedServices": "SOF storage, LOTUS cluster, CEDA Archive, sci machines",
     "summary": "Issues with SOF storage affecting many services.",
     "date": "2024-02-26T09:00",
@@ -12,6 +12,10 @@
       {
         "date": "2024-02-26T09:00",
         "details": "Issue under investigation"
+      },
+      {
+        "date": "2024-02-27T15:00",
+        "details": "Issues should now be resolved, please contact the helpdesk if you encounter further issues"
       }
     ]
   },
