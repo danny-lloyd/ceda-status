@@ -1,29 +1,5 @@
 [
   {
-    "status": "normal",
-    "affectedServices": "SOF storage, LOTUS cluster, CEDA Archive, sci machines",
-    "summary": "Issues with SOF storage affecting many services.",
-    "date": "2024-02-26T09:00",
-    "updates": [
-      {
-        "date": "2024-02-28T17:00",
-        "details": "Systems now functioning normally, please report any further issues to the helpdesk"
-      },
-      {
-        "date": "2024-02-27T10:40",
-        "details": "Issue receiving urgent attention from system team. LOTUS jobs currently unavailable (new jobs held in queues). Many hosts unresponsive due to mounting affecting storage system."
-      },
-      {
-        "date": "2024-02-26T09:00",
-        "details": "Issue under investigation"
-      },
-      {
-        "date": "2024-02-27T15:00",
-        "details": "Issues should now be resolved, please contact the helpdesk if you encounter further issues"
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "Data download web service (data.ceda.ac.uk)",
     "summary": "Intermittent CEDA data download issues",
@@ -43,29 +19,25 @@
     "date": "2024-02-22T14:30",
     "updates": [
       {
+        "date": "2024-03-04T09:00",
+        "details": "Although services came back up temporarily after the maintenance intervention, a further issue is currently preventing normal operation and is under investigation."
+      },
+      {
         "date": "2024-02-22T14:30",
         "details": "Intervention and repair planned between Mon 26 Feb - Wed 28 Feb during which time tape services will be unvailable."
       }
     ]
   },
   {
-    "status": "normal",
-    "affectedServices": "Globus data transfers",
-    "summary": "Performance issue with globus transfers",
-    "date": "2024-01-09T09:00",
+    "status": "at risk",
+    "affectedServices": "All",
+    "summary": "Regular scheduled maintenance day",
+    "date": "2024-04-16T08:00",
     "updates": [
       {
-        "date": "2024-02-29T09:00",
-        "details": "Service now operating normally, problem of periodic crashes now resolved."
-      },
-      {
-        "date": "2024-01-26T11:30",
-        "details": "Investigative work ongoing, attaching new data transfer node. Some interruptions may result so transfers may be slower than normal."
-      },
-      {
-        "date": "2024-01-09T09:00",
-        "details": "Slow performance reported: investigating."
+        "date": "2024-03-04T19:00",
+        "details": "The next scheduled maintenance day (aka Patch Day) is provisionally scheduled for 16 April 2024. Further updates to follow nearer the date."
       }
     ]
-  }
+  },
 ]
