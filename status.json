@@ -1,18 +1,5 @@
 [
   {
-    "status": "degraded",
-    "affectedServices": "Data download web service (data.ceda.ac.uk)",
-    "summary": "Intermittent CEDA data download issues",
-    "date": "2024-01-17T16:00",
-    "updates": [
-      {
-        "date": "2024-01-17T16:00",
-        "details": "Identified cause and working to resolve as quick as possible.",
-        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-01-17-intermittent-data-download-issues/"
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "tape services",
     "summary": "hardware problem causing performance issues",
