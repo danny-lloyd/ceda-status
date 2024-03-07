@@ -1,10 +1,14 @@
 [
   {
-    "status": "down",
+    "status": "normal",
     "affectedServices": "tape services",
     "summary": "hardware problem causing performance issues",
     "date": "2024-02-22T14:30",
     "updates": [
+      {
+        "date": "2024-03-07T09:00",
+        "details": "Systems now opertaing as expected."
+      },
       {
         "date": "2024-03-04T09:00",
         "details": "Although services came back up temporarily after the maintenance intervention, a further issue is currently preventing normal operation and is under investigation."
