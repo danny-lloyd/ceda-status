@@ -1,21 +1,13 @@
 [
   {
-    "status": "normal",
-    "affectedServices": "tape services",
-    "summary": "hardware problem causing performance issues",
-    "date": "2024-02-22T14:30",
+    "status": "degraded",
+    "affectedServices": "Elastic tape service",
+    "summary": "Impaired or no service",
+    "date": "2024-03-11T09:00",
     "updates": [
       {
-        "date": "2024-03-07T09:00",
-        "details": "Systems now operating as expected."
-      },
-      {
-        "date": "2024-03-04T09:00",
-        "details": "Although services came back up temporarily after the maintenance intervention, a further issue is currently preventing normal operation and is under investigation."
-      },
-      {
-        "date": "2024-02-22T14:30",
-        "details": "Intervention and repair planned between Mon 26 Feb - Wed 28 Feb during which time tape services will be unvailable."
+        "date": "2024-03-11T09:00",
+        "details": "Report of break in service since 2024-03-08. Under investigation"
       }
     ]
   },
