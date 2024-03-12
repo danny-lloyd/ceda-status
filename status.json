@@ -1,10 +1,14 @@
 [
   {
-    "status": "degraded",
+    "status": "normal",
     "affectedServices": "Elastic tape service",
     "summary": "Impaired or no service",
     "date": "2024-03-11T09:00",
     "updates": [
+      {
+        "date": "2024-03-11T17:00",
+        "details": "Normal service resumed, please report any further problems."
+      },
       {
         "date": "2024-03-11T09:00",
         "details": "Report of break in service since 2024-03-08. Under investigation"
