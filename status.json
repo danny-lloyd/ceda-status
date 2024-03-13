@@ -1,5 +1,17 @@
 [
   {
+    "status": "degraded",
+    "affectedServices": "module loads, home directories, scratch-nopw2 and /gws/smf/*/*",
+    "summary": "Problem with storage used for software (/apps/jasmin), home directories, scratch and SMF volumes.",
+    "date": "2024-03-13T15:00",
+    "updates": [
+      {
+        "date": "2024-03-13T15:00",
+        "details": "High read latency confirmed, support ticket raised with storage vendor. Pending further investigation."
+      }
+    ]
+  },
+  {
     "status": "normal",
     "affectedServices": "Elastic tape service",
     "summary": "Impaired or no service",
