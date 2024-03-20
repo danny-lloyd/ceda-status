@@ -17,7 +17,7 @@
                   "type": "string",
                   "enum": [
                     "down",
-                    "normal",
+                    "resolved",
                     "degraded",
                     "at risk"
                   ]
@@ -34,6 +34,7 @@
                 },
                 "updates": {
                   "type": "array",
+                  "minItems": 1,
                   "items": {
                       "$ref": "#/definitions/update"
                   }
