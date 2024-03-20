@@ -1,6 +1,6 @@
 [
   {
-    "status": "normal",
+    "status": "resolved",
     "affectedServices": "module loads, home directories, scratch-nopw2 and /gws/smf/*/*",
     "summary": "Problem with storage used for software (/apps/jasmin), home directories, scratch and SMF volumes.",
     "date": "2024-03-13T15:00",
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "status": "normal",
+    "status": "resolved",
     "affectedServices": "Elastic tape service",
     "summary": "Impaired or no service",
     "date": "2024-03-11T09:00",
