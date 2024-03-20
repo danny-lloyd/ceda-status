@@ -43,6 +43,7 @@ Field | Required | Details | Example
 --- | --- | --- | ---
 date | yes | date of the update/report | format as above
 details | yes | Concise text report | `Issue reported: under investigation`, `Issue now resolved, please report any further issues`, `Planned maintenance`, etc.
+url | | URL of related news item or other info | 
 
 ## Content management
 
