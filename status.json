@@ -6,6 +6,10 @@
     "date": "2024-03-21T09:30",
     "updates": [
       {
+        "date": "2024-03-21T17:00",
+        "details": "SOF storage still degraded and unlikely to improve in the next few hours. The system team will review again tomorrow morning."
+      },
+      {
         "date": "2024-03-21T09:30",
         "details": "SOF storage slow/unresponsive due to internal performance issue, causing many machines to be unresponsive. Vendor engaged with investigating. New jobs prevented from being started from LOTUS queues to reduce load on SOF storage system, new jobs still queued and will be run once issues resolved."
       }
