@@ -1,5 +1,29 @@
 [
   {
+    "status": "degraded",
+    "affectedServices": "SOF storage /gws/nopw/j04*, hosts, LOTUS jobs, CEDA Archive access",
+    "summary": "Internal performance issue having wider effects.",
+    "date": "2024-03-21T09:30",
+    "updates": [
+      {
+        "date": "2024-03-21T09:30",
+        "details": "SOF storage slow/unresponsive due to internal performance issue, causing many machines to be unresponsive. Vendor engaged with investigating. New jobs prevented from being started from LOTUS queues to reduce load on SOF storage system, new jobs still queued and will be run once issues resolved."
+      }
+    ]
+  },
+  {
+    "status": "resolved",
+    "affectedServices": "PFS storage volumes /work/scratch-pw*, /gws/pw/* /datacentre/*",
+    "summary": "Slow performance.",
+    "date": "2024-03-21T09:00",
+    "updates": [
+      {
+        "date": "2024-03-21T09:00",
+        "details": "Issues with from earlier this week are now resolved, please report any further problems to the JASMIN helpdesk, but please only once the other issue with SOF storage (having wider effects) have been resolved."
+      }
+    ]
+  },
+  {
     "status": "resolved",
     "affectedServices": "module loads, home directories, scratch-nopw2 and /gws/smf/*/*",
     "summary": "Problem with storage used for software (/apps/jasmin), home directories, scratch and SMF volumes.",
@@ -12,22 +36,6 @@
       {
         "date": "2024-03-13T15:00",
         "details": "High read latency confirmed, support ticket raised with storage vendor. Pending further investigation."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Elastic tape service",
-    "summary": "Impaired or no service",
-    "date": "2024-03-11T09:00",
-    "updates": [
-      {
-        "date": "2024-03-11T17:00",
-        "details": "Normal service resumed, please report any further problems."
-      },
-      {
-        "date": "2024-03-11T09:00",
-        "details": "Report of break in service since 2024-03-08. Under investigation"
       }
     ]
   },
