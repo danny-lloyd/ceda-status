@@ -1,10 +1,14 @@
 [
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "SOF storage /gws/nopw/j04*, hosts, LOTUS jobs, CEDA Archive access",
     "summary": "Internal performance issue having wider effects.",
     "date": "2024-03-21T09:30",
     "updates": [
+      {
+        "date": "2024-03-22T14:17",
+        "details": "Normal operations resumed: SOF storage cluster now stable again and Slurm queues now re-opened."
+      },
       {
         "date": "2024-03-21T17:00",
         "details": "SOF storage still degraded and unlikely to improve in the next few hours. The system team will review again tomorrow morning."
