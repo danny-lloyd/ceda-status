@@ -6,6 +6,10 @@
     "date": "2024-03-27T10:00",
     "updates": [
       {
+        "date": "2024-03-28T13:40",
+        "details": "Temporary replacement of faulty data transfer node has resumed transfers: throughput may be lower until issues resolved on original high-performance node, likely after Easter."
+      },
+      {
         "date": "2024-03-28T10:00",
         "details": "Service may be interrupted while investigations are ongoing."
       },
