@@ -21,18 +21,6 @@
   },
   {
     "status": "at risk",
-    "affectedServices": "Accessing QuoByte",
-    "summary": "Intermittent access issues",
-    "date": "2024-04-12T14:00"
-    "updates": [
-      {
-        "date": "2024-04-12T14:00",
-        "details": "There is currently an issue affecting access to Quobyte, we have indentified the problem and are working on a fix"
-      }
-    ]
-  },
-  {
-    "status": "at risk",
     "affectedServices": "All",
     "summary": "Regular scheduled maintenance day",
     "date": "2024-04-16T08:00",
