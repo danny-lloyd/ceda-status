@@ -1,33 +1,49 @@
 [
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "Globus transfers",
     "summary": "Intermittent timeouts / authentication issues",
     "date": "2024-03-27T10:00",
     "updates": [
       {
+        "date": "2024-04-16T18:00",
+        "details": "High-performance node reinstated, service functioning normally."
+      },
+      {
         "date": "2024-03-28T13:40",
         "details": "Temporary replacement of faulty data transfer node has resumed transfers: throughput may be lower until issues resolved on original high-performance node, likely after Easter."
-      },
-      {
-        "date": "2024-03-28T10:00",
-        "details": "Service may be interrupted while investigations are ongoing."
-      },
-      {
-        "date": "2024-03-27T10:00",
-        "details": "Issue being investigated."
       }
     ]
   },
   {
-    "status": "at risk",
-    "affectedServices": "All",
+    "status": "resolved",
+    "affectedServices": "All except SOF storage",
     "summary": "Regular scheduled maintenance day",
     "date": "2024-04-16T08:00",
     "updates": [
       {
+        "date": "2024-04-16T18:00",
+        "details": "Most work completed, LOTUS reservation lifted, jobs now running."
+      },
+      {
         "date": "2024-03-04T19:00",
         "details": "The next scheduled maintenance day (aka Patch Day) is provisionally scheduled for 16 April 2024. Further updates to follow nearer the date."
+      }
+    ]
+  }
+  {
+    "status": "degraded",
+    "affectedServices": "SOF storage",
+    "summary": "Intermittent access issues",
+    "date": "2024-04-16T18:00",
+    "updates": [
+      {
+        "date": "2024-04-16T18:00",
+        "details": "SOF upgrade and fix ongoing, should be complete by morning pending further checks."
+      },
+      {
+        "date": "2024-04-12T14:00",
+        "details": "Issue affecting access to SOF storage. Problem identified, fix in progress"
       }
     ]
   }
