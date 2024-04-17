@@ -38,6 +38,10 @@
     "date": "2024-04-16T18:00",
     "updates": [
       {
+        "date": "2024-04-17T12:30",
+        "details": "Awaiting outcome of vendor support investigation, SOF performance may still be degraded."
+      },
+      {
         "date": "2024-04-16T18:00",
         "details": "SOF upgrade and fix ongoing, should be complete by morning pending further checks."
       },
