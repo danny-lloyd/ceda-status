@@ -1,57 +1,37 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "Globus transfers",
-    "summary": "Intermittent timeouts / authentication issues",
-    "date": "2024-03-27T10:00",
+    "status": "at risk",
+    "affectedServices": "JASMIN cloud",
+    "summary": "Scheduled maintenance, risk of loss of external connectivity",
+    "date": "2024-04-24T08:30",
     "updates": [
       {
-        "date": "2024-04-16T18:00",
-        "details": "High-performance node reinstated, service functioning normally."
-      },
-      {
-        "date": "2024-03-28T13:40",
-        "details": "Temporary replacement of faulty data transfer node has resumed transfers: throughput may be lower until issues resolved on original high-performance node, likely after Easter."
+        "date": "2024-04-24T08:30",
+        "details": "Relocation of PDUs in cloud firewall rack between 08:30 and 10:00. Risk of loss of external connectivity of up to 15 mins."
       }
     ]
   },
   {
     "status": "resolved",
-    "affectedServices": "All except SOF storage",
-    "summary": "Regular scheduled maintenance day",
-    "date": "2024-04-16T08:00",
+    "affectedServices": "gridftp",
+    "summary": "Expired server certificate caused break in service",
+    "date": "2024-04-20T17:00",
     "updates": [
       {
-        "date": "2024-04-16T18:00",
-        "details": "Most work completed, LOTUS reservation lifted, jobs now running."
-      },
-      {
-        "date": "2024-03-04T19:00",
-        "details": "The next scheduled maintenance day (aka Patch Day) is provisionally scheduled for 16 April 2024. Further updates to follow nearer the date."
+        "date": "2024-04-22T17:00",
+        "details": "Cerificate expired over weekend, now replaced, normal service resumed."
       }
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "SOF storage",
-    "summary": "Intermittent access issues",
-    "date": "2024-04-16T18:00",
+    "status": "down",
+    "affectedServices": "tape services",
+    "summary": "Scheduled maintenance for software upgrade",
+    "date": "2024-04-25T16:30",
     "updates": [
       {
-        "date": "2024-04-17T15:00",
-        "details": "Normal service; some background work for imrpovements still pending."
-      },
-      {
-        "date": "2024-04-17T12:30",
-        "details": "Awaiting outcome of vendor support investigation, SOF performance may still be degraded."
-      },
-      {
-        "date": "2024-04-16T18:00",
-        "details": "SOF upgrade and fix ongoing, should be complete by morning pending further checks."
-      },
-      {
-        "date": "2024-04-12T14:00",
-        "details": "Issue affecting access to SOF storage. Problem identified, fix in progress"
+        "date": "2024-04-25T16:30",
+        "details": "In preparation for scheduled maintenance on Monday morning 29 April, tape services (ET, JDMA, NLA, SD) will be taken down Thursday 25th at 16:30, but should return later on Monday."
       }
     ]
   }
