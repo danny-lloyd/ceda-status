@@ -34,5 +34,17 @@
         "details": "In preparation for scheduled maintenance on Monday morning 29 April, tape services (ET, JDMA, NLA, SD) will be taken down Thursday 25th at 16:30, but should return later on Monday."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "SOF storage",
+    "summary": "Reports of sticky/slow performance",
+    "date": "2024-04-24T11:00",
+    "updates": [
+      {
+        "date": "2024-04-24T11:00",
+        "details": "Reports received re. CEDA archive volumes and some /gws/nopw/j04 GWS volumes. Under investigation."
+      }
+    ]
   }
 ]
