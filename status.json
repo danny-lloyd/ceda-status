@@ -1,10 +1,14 @@
 [
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "tape services",
     "summary": "Scheduled maintenance for software upgrade",
     "date": "2024-04-25T16:30",
     "updates": [
+      {
+        "date": "2024-04-29T14:30",
+        "details": "ET, JDMA and NLA tape services are now available to users agin."
+      },
       {
         "date": "2024-04-25T16:30",
         "details": "In preparation for scheduled maintenance on Monday morning 29 April, tape services (ET, JDMA, NLA, SD) will be taken down Thursday 25th at 16:30, but should return later on Monday."
