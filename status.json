@@ -1,29 +1,5 @@
 [
   {
-    "status": "at risk",
-    "affectedServices": "JASMIN cloud",
-    "summary": "Scheduled maintenance, risk of loss of external connectivity",
-    "date": "2024-04-24T08:30",
-    "updates": [
-      {
-        "date": "2024-04-24T08:30",
-        "details": "Relocation of PDUs in cloud firewall rack between 08:30 and 10:00. Risk of loss of external connectivity of up to 15 mins."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "gridftp",
-    "summary": "Expired server certificate caused break in service",
-    "date": "2024-04-20T17:00",
-    "updates": [
-      {
-        "date": "2024-04-22T17:00",
-        "details": "Cerificate expired over weekend, now replaced, normal service resumed."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "tape services",
     "summary": "Scheduled maintenance for software upgrade",
