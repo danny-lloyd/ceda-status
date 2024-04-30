@@ -34,6 +34,10 @@
     "date": "2024-04-30T09:30",
     "updates": [
       {
+        "date": "2024-04-30T15:30",
+        "details": "Most affected hosts now rebooted and returned to queues. Further checks pending."
+      },
+      {
         "date": "2024-04-30T09:30",
         "details": "Many hosts out of action due to stuck jobs. Reboots required before hosts can be re-added to queues. Slow performance meanwhile."
       }
