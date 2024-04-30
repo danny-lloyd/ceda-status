@@ -26,5 +26,17 @@
         "details": "Reports received re. CEDA archive volumes and some /gws/nopw/j04 GWS volumes. Under investigation."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "LOTUS batch cluster",
+    "summary": "Job processing currently slow",
+    "date": "2024-04-30T09:30",
+    "updates": [
+      {
+        "date": "2024-04-30T09:30",
+        "details": "Many hosts out of action due to stuck jobs. Reboots required before hosts can be re-added to queues. Slow performance meanwhile."
+      }
+    ]
   }
 ]
