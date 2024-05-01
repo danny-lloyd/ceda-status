@@ -1,29 +1,25 @@
 [
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "SOF storage",
     "summary": "Reports of sticky/slow performance",
     "date": "2024-04-24T11:00",
     "updates": [
       {
-        "date": "2024-04-24T11:00",
-        "details": "Reports received re. CEDA archive volumes and some /gws/nopw/j04 GWS volumes. Under investigation."
+        "date": "2024-05-01T15:00",
+        "details": "Normal operation resumed."
       }
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "LOTUS batch cluster",
     "summary": "Job processing currently slow",
     "date": "2024-04-30T09:30",
     "updates": [
       {
-        "date": "2024-04-30T15:30",
-        "details": "Most affected hosts now rebooted and returned to queues. Further checks pending."
-      },
-      {
-        "date": "2024-04-30T09:30",
-        "details": "Many hosts out of action due to stuck jobs. Reboots required before hosts can be re-added to queues. Slow performance meanwhile."
+        "date": "2024-05-01T14:30",
+        "details": "Normal operation resumed."
       }
     ]
   }
