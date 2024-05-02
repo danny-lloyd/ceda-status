@@ -1,25 +1,13 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "SOF storage",
-    "summary": "Reports of sticky/slow performance",
-    "date": "2024-04-24T11:00",
+    "status": "down",
+    "affectedServices": "JASMIN cloud external tenancies",
+    "summary": "Scheduled maintenance",
+    "date": "2024-05-14T08:00",
     "updates": [
       {
-        "date": "2024-05-01T15:00",
-        "details": "Normal operation resumed."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "LOTUS batch cluster",
-    "summary": "Job processing currently slow",
-    "date": "2024-04-30T09:30",
-    "updates": [
-      {
-        "date": "2024-05-01T14:30",
-        "details": "Normal operation resumed."
+        "date": "2024-05-14T08:00",
+        "details": "Firewall upgrade as part of transition to STFC Cloud. Anticpate 30 minutes of downtime between 08:00-10:00 + 90 mins contingency."
       }
     ]
   }
