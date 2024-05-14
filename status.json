@@ -1,6 +1,6 @@
 [
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "JASMIN cloud external tenancies",
     "summary": "Scheduled maintenance",
     "date": "2024-05-14T08:00",
@@ -8,6 +8,18 @@
       {
         "date": "2024-05-14T08:00",
         "details": "Firewall upgrade as part of transition to STFC Cloud. Anticpate 30 minutes of downtime between 08:00-10:00 + 90 mins contingency."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "/gws/nopw/*, CEDA Archive and some other services",
+    "summary": "Issues with SOF storage.",
+    "date": "2024-05-14T17:00",
+    "updates": [
+      {
+        "date": "2024-05-14T17:00",
+        "details": "Issue identified, system team investigating with storage vendor. May cause widespread disruption as this storage is used in many services."
       }
     ]
   }
