@@ -12,11 +12,15 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "/gws/nopw/*, CEDA Archive and some other services",
     "summary": "Issues with SOF storage.",
     "date": "2024-05-14T17:00",
     "updates": [
+      {
+        "date": "2024-05-15T15:00",
+        "details": "Issue now resolved, storage should be accessible again but some services may take time to resume normal operation. LOTUS users advised to check job status in case recent jubs need re-sibmitting."
+      },
       {
         "date": "2024-05-14T17:00",
         "details": "Issue identified, system team investigating with storage vendor. May cause widespread disruption as this storage is used in many services."
