@@ -1,22 +1,14 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "JASMIN cloud external tenancies",
-    "summary": "Scheduled maintenance",
-    "date": "2024-05-14T08:00",
-    "updates": [
-      {
-        "date": "2024-05-14T08:00",
-        "details": "Firewall upgrade as part of transition to STFC Cloud. Anticpate 30 minutes of downtime between 08:00-10:00 + 90 mins contingency."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
+    "status": "down",
     "affectedServices": "/gws/nopw/*, CEDA Archive and some other services",
     "summary": "Issues with SOF storage.",
     "date": "2024-05-14T17:00",
     "updates": [
+      {
+        "date": "2024-05-20T09:30",
+        "details": "Issue identified with SOF storage, system team investigating with storage provider. LOTUS queues are closed. May cause widespread disruption as this storage is used in many services."
+      },
       {
         "date": "2024-05-15T15:00",
         "details": "Issue now resolved, storage should be accessible again but some services may take time to resume normal operation. LOTUS users advised to check job status in case recent jubs need re-sibmitting."
