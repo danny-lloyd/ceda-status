@@ -1,6 +1,6 @@
 [
   {
-    "affectedServices": "GWS public web access server update",
+    "affectedServices": "GWS public web access server",
     "date": "2024-06-04T17:00",
     "status": "at risk",
     "summary": "On Tuesday 4th June the GWS public web access server will be moved to a new platform.",
