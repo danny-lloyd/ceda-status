@@ -14,12 +14,12 @@
   {
     "affectedServices": "Tape services ET/JDMA",
     "date": "2024-05-28T16:00",
-    "status": "down",
-    "summary": "Issue reported.",
+    "status": "degraded",
+    "summary": "Issue with ET/JDMA put/get operations",
     "updates": [
       {
         "date": "2024-05-28T16:00",
-        "details": "Issue reported: put and get operations may be stuck. Investigating."
+        "details": "Issue resolved, backlog in process of clearing."
       }
     ]
   }
