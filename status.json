@@ -14,7 +14,7 @@
   {
     "affectedServices": "Tape services ET/JDMA",
     "date": "2024-05-28T16:00",
-    "status": "degraded",
+    "status": "resolved",
     "summary": "Issue with ET/JDMA put/get operations",
     "updates": [
       {
