@@ -13,13 +13,25 @@
   },
   {
     "affectedServices": "Tape services ET/JDMA",
-    "date": "2024-05-28T16:00",
-    "status": "resolved",
-    "summary": "Issue with ET/JDMA put/get operations",
+    "date": "2024-06-04T12:00",
+    "status": "down",
+    "summary": "Scheduled maintenance",
     "updates": [
       {
-        "date": "2024-05-28T16:00",
-        "details": "Issue resolved, backlog in process of clearing."
+        "date": "2024-06-03T09:00",
+        "details": "Maintenance scheduled from 12:00 on Tues 4 June for ~24 hrs."
+      }
+    ]
+  },
+  {
+    "affectedServices": "GridFTP server gridftp1",
+    "date": "2024-06-04T10:00",
+    "status": "at risk",
+    "summary": "Scheduled maintenance",
+    "updates": [
+      {
+        "date": "2024-06-03T09:00",
+        "details": "Scheduled reboot to clear storage issues."
       }
     ]
   }
