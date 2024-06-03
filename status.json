@@ -26,12 +26,16 @@
   {
     "affectedServices": "GridFTP server gridftp1",
     "date": "2024-06-04T10:00",
-    "status": "at risk",
+    "status": "resolved",
     "summary": "Scheduled maintenance",
     "updates": [
       {
+        "date": "2024-06-03T10:15",
+        "details": "Reboot completed, normal service resumed."
+      },
+      {
         "date": "2024-06-03T09:00",
-        "details": "Scheduled reboot to clear storage issues."
+        "details": "Scheduled reboot at 10:00 to clear storage issues."
       }
     ]
   }
