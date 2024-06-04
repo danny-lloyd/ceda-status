@@ -41,12 +41,12 @@
   },
   {
     "affectedServices": "LOTUS cluster, sci8",
-    "date": "2024-06-04T09:15:00",
+    "date": "2024-06-04T09:15",
     "status": "degraded",
     "summary": "Faulty network switch, some hosts unavailable.",
     "updates": [
       {
-        "date": "2024-06-04T09:15:00",
+        "date": "2024-06-04T09:15",
         "details": "Hosts host419 - host458 currently unavailable: these make up a large part of the par-multi queue but also used in par-single and other queues. Sci8 also affected. Investigations ongoing."
       }
     ]
