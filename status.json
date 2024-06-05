@@ -1,6 +1,6 @@
 [
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "GWS public web access server",
     "summary": "On Tuesday 4th June the GWS public web access server will be moved to a new platform.",
     "date": "2024-06-04T17:00",
@@ -8,6 +8,10 @@
       {
         "date": "2024-05-28T15:54",
         "details": "Downtime should be minimal, but the service should be considered ‘at risk’ on this date."
+      },
+      {
+        "date": "2024-06-04T18:00",
+        "details": "Scheduled work completed."
       }
     ]
   },
