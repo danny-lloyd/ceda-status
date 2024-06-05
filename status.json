@@ -54,5 +54,17 @@
         "details": "Hosts host419 - host458 currently unavailable: these make up a large part of the par-multi queue but also used in par-single and other queues. Sci8 also affected. Investigations ongoing."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All",
+    "summary": "Quarterly scheduled maintenance day",
+    "date": "2024-07-16T07:00",
+    "updates": [
+      {
+        "date": "2024-07-16T07:00",
+        "details": "Further details to follow."
+      }
+    ]
   }
 ]
