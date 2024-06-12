@@ -46,5 +46,41 @@
         "details": "Further details to follow."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "tape services",
+    "summary": "Scheduled maintenance",
+    "date": "2024-06-12T15:00",
+    "updates": [
+      {
+        "date": "2024-06-12T15:00",
+        "details": "Essential upgrades in preparation for migration to new operating system at end of June."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "tape services",
+    "summary": "Scheduled maintenance",
+    "date": "2024-06-24T09:00",
+    "updates": [
+      {
+        "date": "2024-06-24T09:00",
+        "details": "Break to service during migration of backend tape service to new operating system, expected w/c 24th June, duration and timings TBC."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "tape services",
+    "summary": "Scheduled maintenance",
+    "date": "2024-06-25T09:00",
+    "updates": [
+      {
+        "date": "2024-06-25T09:00",
+        "details": "Migration of ET and StorageD servers to new operating system. Late June, date TBC."
+      }
+    ]
   }
 ]
