@@ -12,11 +12,15 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "SOF storage, ceda archive, many hosts",
     "summary": "Issue affecting SOF storage used for /gws/nopw/j04/* workspaces & CEDA archive.",
     "date": "2024-06-10T08:15",
     "updates": [
+      {
+        "date": "2024-06-12T09:35",
+        "details": "Main issues now resolved, please report any further problems to support@jasmin.ac.uk"
+      },
       {
         "date": "2024-06-12T08:45",
         "details": "Issues ongoing for some volumes, investigations with support team continue."
@@ -50,11 +54,11 @@
   {
     "status": "down",
     "affectedServices": "tape services",
-    "summary": "Scheduled maintenance",
+    "summary": "Scheduled maintenance 11/12(/13?) June",
     "date": "2024-06-12T15:00",
     "updates": [
       {
-        "date": "2024-06-12T15:00",
+        "date": "2024-06-13T09:00",
         "details": "Essential upgrades in preparation for migration to new operating system at end of June."
       }
     ]
@@ -62,7 +66,7 @@
   {
     "status": "down",
     "affectedServices": "tape services",
-    "summary": "Scheduled maintenance",
+    "summary": "Scheduled maintenance twds end of June",
     "date": "2024-06-24T09:00",
     "updates": [
       {
@@ -74,7 +78,7 @@
   {
     "status": "down",
     "affectedServices": "tape services",
-    "summary": "Scheduled maintenance",
+    "summary": "Scheduled maintenance at end of June",
     "date": "2024-06-25T09:00",
     "updates": [
       {
