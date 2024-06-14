@@ -16,30 +16,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "SOF storage, ceda archive, many hosts",
+    "status": "degraded",
+    "affectedServices": "SOF storage",
     "summary": "Issue affecting SOF storage used for /gws/nopw/j04/* workspaces & CEDA archive.",
-    "date": "2024-06-10T08:15",
+    "date": "2024-06-14T08:15",
     "updates": [
       {
-        "date": "2024-06-12T09:35",
-        "details": "Main issues now resolved, please report any further problems to support@jasmin.ac.uk"
-      },
-      {
-        "date": "2024-06-12T08:45",
-        "details": "Issues ongoing for some volumes, investigations with support team continue."
-      },
-      {
-        "date": "2024-06-11T09:45",
-        "details": "Some host reboots needed today to clear remaining issues. Please look out for messages on individual hosts."
-      },
-      {
-        "date": "2024-06-10T09:45",
-        "details": "Storage resuming normal operation. LOTUS queues were paused & some VMs needed rebooting. Please report any further problems to the helpdesk."
-      },
-      {
-        "date": "2024-06-10T08:15",
-        "details": "Issue reported, team investigating."
+        "date": "2024-06-14T08:15",
+        "details": "Some GWS volumes permitting writes beyond true quota and becoming full. Check mon.jasmin.ac.uk for true quota (df may report wrong value). Issue being investigated with storage vendor."
       }
     ]
   },
