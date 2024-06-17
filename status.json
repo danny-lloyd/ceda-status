@@ -24,11 +24,15 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "tape services",
     "summary": "Scheduled maintenance 11/12(/13?) June",
     "date": "2024-06-12T15:00",
     "updates": [
+      {
+        "date": "2024-06-17T15:00",
+        "details": "Normal service resumed"
+      },
       {
         "date": "2024-06-17T09:00",
         "details": "Service not yet returned to operation, awaiting further news from service manager(s)"
