@@ -24,22 +24,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "tape services",
-    "summary": "Scheduled maintenance 11/12(/13?) June",
-    "date": "2024-06-12T15:00",
+    "status": "down",
+    "affectedServices": "NLA (near-line archive)",
+    "summary": "Access issue",
+    "date": "2024-06-182T14:00",
     "updates": [
       {
-        "date": "2024-06-17T15:00",
-        "details": "Normal service resumed"
-      },
-      {
-        "date": "2024-06-17T09:00",
-        "details": "Service not yet returned to operation, awaiting further news from service manager(s)"
-      },
-      {
-        "date": "2024-06-13T09:00",
-        "details": "Essential upgrades in preparation for migration to new operating system at end of June."
+        "date": "2024-06-18T15:00",
+        "details": "Temporarily unavailable due to DNS issue: under investigation."
       }
     ]
   },
