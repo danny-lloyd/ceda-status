@@ -6,6 +6,10 @@
     "date": "2024-06-14T08:15",
     "updates": [
       {
+        "date": "2024-06-24T09:00",
+        "details": "Storage registry issue affecting SOF access from some hosts, team investigating. Quota issue persists, see previous update."
+      },
+      {
         "date": "2024-06-14T08:15",
         "details": "Some GWS volumes permitting writes beyond true quota and becoming full. Check mon.jasmin.ac.uk for true quota (df may report wrong value). Issue being investigated with storage vendor."
       }
