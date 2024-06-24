@@ -6,6 +6,10 @@
     "date": "2024-06-14T08:15",
     "updates": [
       {
+        "date": "2024-06-24T09:25",
+        "details": "Registry issue now resolved after some host reboots. Quota issue persists, see previous update."
+      },
+      {
         "date": "2024-06-24T09:00",
         "details": "Storage registry issue affecting SOF access from some hosts, team investigating. Quota issue persists, see previous update."
       },
