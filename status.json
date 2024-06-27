@@ -70,5 +70,17 @@
         "details": "Estimated date between 2 and 19th August, duration 1 week. Further details to follow."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "all",
+    "summary": "Electrical testing of fixed eqiuipment",
+    "date": "2024-10-08T07:00",
+    "updates": [
+      {
+        "date": "2024-06-27T14:00",
+        "details": "Advance notice of potentially disruptive electrical testing work lasting 2-3 days in October 2024."
+      }
+    ]
   }
 ]
