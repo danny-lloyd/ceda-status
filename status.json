@@ -48,30 +48,26 @@
     ]
   },
   {
-    "status": "resolved",
+    "status": "down",
     "affectedServices": "tape services",
-    "summary": "Scheduled maintenance twds end of June",
-    "date": "2024-06-26T09:00",
+    "summary": "Upcoming scheduled maintenance end July (database migration)",
+    "date": "2024-07-22T16:00",
     "updates": [
       {
-        "date": "2024-06-26T15:30",
-        "details": "Normal service resumed."
-      },
-      {
-        "date": "2024-06-24T09:00",
-        "details": "Break to service during migration of backend tape service to new operating system, expected w/c 24th June, duration and timings TBC."
+        "date": "2024-06-27T14:00",
+        "details": "Estimated date now 22-24 July, duration ~1-2 days. Further details to follow."
       }
     ]
   },
   {
     "status": "down",
     "affectedServices": "tape services",
-    "summary": "Upcoming scheduled maintenance end June/early July",
-    "date": "2024-06-25T09:00",
+    "summary": "Upcoming scheduled maintenance early August (redeployment to Rocky9)",
+    "date": "2024-07-22T16:00",
     "updates": [
       {
-        "date": "2024-06-26T15:30",
-        "details": "Date still to be arranged, please look out for further news."
+        "date": "2024-06-27T14:00",
+        "details": "Estimated date between 2 and 19th August, duration 1 week. Further details to follow."
       }
     ]
   }
