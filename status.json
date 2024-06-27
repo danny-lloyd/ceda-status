@@ -32,11 +32,15 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "NLA (near-line archive)",
     "summary": "Access issue",
     "date": "2024-06-18T14:00",
     "updates": [
+      {
+        "date": "2024-06-27T15:30",
+        "details": "Normal service resumed."
+      },
       {
         "date": "2024-06-26T15:30",
         "details": "Further news due shortly..."
