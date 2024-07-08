@@ -32,26 +32,6 @@
     ]
   },
   {
-    "affectedServices": "NLA (near-line archive)",
-    "date": "2024-06-18T14:00",
-    "status": "resolved",
-    "summary": "Access issue",
-    "updates": [
-      {
-        "date": "2024-06-27T15:30",
-        "details": "Normal service resumed."
-      },
-      {
-        "date": "2024-06-26T15:30",
-        "details": "Further news due shortly..."
-      },
-      {
-        "date": "2024-06-18T15:00",
-        "details": "Temporarily unavailable due to DNS issue: under investigation."
-      }
-    ]
-  },
-  {
     "affectedServices": "ET/JDMA tape services",
     "date": "2024-07-22T16:00",
     "status": "down",
