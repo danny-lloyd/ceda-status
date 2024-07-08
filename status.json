@@ -1,9 +1,9 @@
 [
   {
-    "status": "degraded",
     "affectedServices": "SOF storage",
-    "summary": "Issue affecting SOF storage used for /gws/nopw/j04/* workspaces & CEDA archive.",
     "date": "2024-06-14T08:15",
+    "status": "degraded",
+    "summary": "Issue affecting SOF storage used for /gws/nopw/j04/* workspaces & CEDA archive.",
     "updates": [
       {
         "date": "2024-06-24T09:25",
@@ -20,10 +20,10 @@
     ]
   },
   {
-    "status": "down",
     "affectedServices": "All",
-    "summary": "Quarterly scheduled maintenance day Tues 16 July 2024",
     "date": "2024-07-16T07:00",
+    "status": "down",
+    "summary": "Quarterly scheduled maintenance day Tues 16 July 2024",
     "updates": [
       {
         "date": "2024-07-16T07:00",
@@ -32,10 +32,10 @@
     ]
   },
   {
-    "status": "resolved",
     "affectedServices": "NLA (near-line archive)",
-    "summary": "Access issue",
     "date": "2024-06-18T14:00",
+    "status": "resolved",
+    "summary": "Access issue",
     "updates": [
       {
         "date": "2024-06-27T15:30",
@@ -52,10 +52,10 @@
     ]
   },
   {
-    "status": "down",
     "affectedServices": "ET/JDMA tape services",
-    "summary": "Upcoming scheduled maintenance end July (database migration)",
     "date": "2024-07-22T16:00",
+    "status": "down",
+    "summary": "Upcoming scheduled maintenance end July (database migration)",
     "updates": [
       {
         "date": "2024-06-27T14:00",
@@ -64,10 +64,10 @@
     ]
   },
   {
-    "status": "down",
     "affectedServices": "ET/JDMA tape services",
-    "summary": "Upcoming scheduled maintenance early August (redeployment to Rocky9)",
     "date": "2024-07-22T16:00",
+    "status": "down",
+    "summary": "Upcoming scheduled maintenance early August (redeployment to Rocky9)",
     "updates": [
       {
         "date": "2024-06-27T14:00",
@@ -76,14 +76,26 @@
     ]
   },
   {
-    "status": "at risk",
     "affectedServices": "all",
-    "summary": "Electrical testing of fixed eqiuipment",
     "date": "2024-10-08T07:00",
+    "status": "at risk",
+    "summary": "Electrical testing of fixed eqiuipment",
     "updates": [
       {
         "date": "2024-06-27T14:00",
         "details": "Advance notice of potentially disruptive electrical testing work lasting 2-3 days in October 2024."
+      }
+    ]
+  },
+  {
+    "affectedServices": "all",
+    "date": "2024-07-08T10:00",
+    "status": "degraded",
+    "summary": "Quobyte outage over the weekend has left many hosts in a degraded state.",
+    "updates": [
+      {
+        "date": "2024-07-08T10:00",
+        "details": "We are working to repair a large number of hosts left in a broken or degraded state by a Quobyte outage this weekend. Hosts should recover through the morning as we are able to repair them."
       }
     ]
   }
