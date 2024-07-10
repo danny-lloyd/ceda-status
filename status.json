@@ -66,17 +66,5 @@
         "details": "Advance notice of potentially disruptive electrical testing work lasting 2-3 days in October 2024."
       }
     ]
-  },
-  {
-    "affectedServices": "all",
-    "date": "2024-07-08T10:00",
-    "status": "degraded",
-    "summary": "Quobyte outage over the weekend has left many hosts in a degraded state.",
-    "updates": [
-      {
-        "date": "2024-07-08T10:00",
-        "details": "We are working to repair a large number of hosts left in a broken or degraded state by a Quobyte outage this weekend. Hosts should recover through the morning as we are able to repair them."
-      }
-    ]
   }
 ]
