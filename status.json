@@ -22,9 +22,13 @@
   {
     "affectedServices": "All",
     "date": "2024-07-16T07:00",
-    "status": "down",
+    "status": "resolved",
     "summary": "Quarterly scheduled maintenance day Tues 16 July 2024",
     "updates": [
+      {
+        "date": "2024-07-16T17:00",
+        "details": "Maintenance completed: LOTUS jobs running again, please report any issues to the helpdesk."
+      },
       {
         "date": "2024-07-16T07:00",
         "details": "Further details to follow."
