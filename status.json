@@ -20,6 +20,18 @@
     ]
   },
   {
+    "affectedServices": "Globus",
+    "date": "2024-07-16T19:00",
+    "status": "down",
+    "summary": "Service not yet resumed after maintenance day",
+    "updates": [
+      {
+        "date": "2024-07-16T19:00",
+        "details": "Service not yet resumed, investigating."
+      }
+    ]
+  },
+  {
     "affectedServices": "All",
     "date": "2024-07-16T07:00",
     "status": "resolved",
