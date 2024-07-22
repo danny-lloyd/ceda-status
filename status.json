@@ -70,5 +70,17 @@
         "details": "Advance notice of potentially disruptive electrical testing work lasting 2-3 days in October 2024."
       }
     ]
+  },
+  {
+    "date": "2024-07-22T15:15",
+    "status": "down",
+    "affectedServices": "Intel Compiler",
+    "summary": "Intel license support has ceased on JASMIN",
+    "updates": [
+      {
+        "date": "2024-07-22T15:15",
+        "details": "We are looking to provide a new version of the Intel compiler (2024.2.0) which is available as a standalone component (no licensing required). Further updates to follow"
+      }
+    ]
   }
 ]
