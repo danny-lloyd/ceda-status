@@ -20,34 +20,14 @@
     ]
   },
   {
-    "affectedServices": "Globus",
-    "date": "2024-07-16T19:00",
-    "status": "resolved",
-    "summary": "Service not yet resumed after maintenance day",
+    "affectedServices": "GPU",
+    "date": "2024-07-22T08:50",
+    "status": "degraded",
+    "summary": "Issue with GPU interactive host",
     "updates": [
       {
-        "date": "2024-07-16T19:48",
-        "details": "Service now resumed."
-      },
-      {
-        "date": "2024-07-16T19:00",
-        "details": "Service not yet resumed, investigating."
-      }
-    ]
-  },
-  {
-    "affectedServices": "All",
-    "date": "2024-07-16T07:00",
-    "status": "resolved",
-    "summary": "Quarterly scheduled maintenance day Tues 16 July 2024",
-    "updates": [
-      {
-        "date": "2024-07-16T17:00",
-        "details": "Maintenance completed: LOTUS jobs running again, please report any issues to the helpdesk."
-      },
-      {
-        "date": "2024-07-16T07:00",
-        "details": "Further details to follow."
+        "date": "2024-07-22T08:50",
+        "details": "Team investigating issue with GPU interactive host gpuhost001."
       }
     ]
   },
