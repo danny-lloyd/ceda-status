@@ -82,5 +82,17 @@
         "details": "We are looking to provide a new version of the Intel compiler (2024.2.0) which is available as a standalone component (no licensing required). Further updates to follow"
       }
     ]
+  },
+  {
+    "date": "2024-07-23T09:30",
+    "status": "down",
+    "affectedServices": "IDL software",
+    "summary": "Issue with licence server causing IDL to be unavailable",
+    "updates": [
+      {
+        "date": "2024-07-23T09:30",
+        "details": "Team investigating"
+      }
+    ]
   }
 ]
