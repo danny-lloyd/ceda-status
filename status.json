@@ -57,25 +57,33 @@
   },
   {
     "date": "2024-07-22T15:15",
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "Intel Compiler",
     "summary": "Intel license support has ceased on JASMIN",
     "updates": [
       {
         "date": "2024-07-22T15:15",
         "details": "We are looking to provide a new version of the Intel compiler (2024.2.0) which is available as a standalone component (no licensing required). Further updates to follow"
+      },
+      {
+        "date": "2024-07-24T17:18",
+        "details": "The Intel compiler is now working. This is using a temporary licence server which will only be in use for the remaining life of the centos7 operating system."
       }
     ]
   },
   {
     "date": "2024-07-23T09:30",
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "IDL software",
     "summary": "Issue with licence server causing IDL to be unavailable",
     "updates": [
       {
         "date": "2024-07-23T09:30",
         "details": "Team investigating"
+      },
+      {
+        "date": "2024-07-24T17:18",
+        "details": "IDL is now working."
       }
     ]
   },
