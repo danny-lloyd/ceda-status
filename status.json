@@ -20,22 +20,6 @@
     ]
   },
   {
-    "affectedServices": "GPU",
-    "date": "2024-07-22T08:50",
-    "status": "resolved",
-    "summary": "Issue with GPU interactive host",
-    "updates": [
-      {
-        "date": "2024-07-22T09:30",
-        "details": "gpuhost001 now back online: issue resolved."
-      },
-      {
-        "date": "2024-07-22T08:50",
-        "details": "Team investigating issue with GPU interactive host gpuhost001."
-      }
-    ]
-  },
-  {
     "affectedServices": "ET/JDMA tape services",
     "date": "2024-07-22T16:00",
     "status": "down",
@@ -92,6 +76,18 @@
       {
         "date": "2024-07-23T09:30",
         "details": "Team investigating"
+      }
+    ]
+  },
+  {
+    "date": "2024-07-24T14:20",
+    "status": "degraded",
+    "affectedServices": "PFS storage volumes /gws/pw/j07/*, /work/scratch-pw*, /work/xfc/*",
+    "summary": "Slow performance due to failed disk",
+    "updates": [
+      {
+        "date": "2024-07-24T14:20",
+        "details": "Draining of failed disk underway, disk replacement to follow (estimate complete end of Thurs 25 Aug. Likely to be causing intermittent slow performance in these volumes."
       }
     ]
   }
