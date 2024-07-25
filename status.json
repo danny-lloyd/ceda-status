@@ -22,9 +22,13 @@
   {
     "affectedServices": "ET/JDMA tape services",
     "date": "2024-07-22T16:00",
-    "status": "down",
+    "status": "resolved",
     "summary": "Upcoming scheduled maintenance end July (database migration)",
     "updates": [
+      {
+        "date": "2024-06-25T14:00",
+        "details": "Services resumed."
+      },
       {
         "date": "2024-06-27T14:00",
         "details": "Estimated date now 22-24 July, duration ~1-2 days. Further details to follow."
