@@ -59,7 +59,7 @@
     "affectedServices": "all",
     "date": "2024-10-08T07:00",
     "status": "at risk",
-    "summary": "Electrical testing of fixed eqiuipment",
+    "summary": "Electrical testing of fixed equipment",
     "updates": [
       {
         "date": "2024-06-27T14:00",
@@ -71,7 +71,7 @@
     "affectedServices": "all",
     "date": "2024-10-15T07:00",
     "status": "down",
-    "summary": "Quarterly schedululed maintenance day",
+    "summary": "Quarterly scheduled maintenance day",
     "updates": [
       {
         "date": "2024-10-15T07:00",
