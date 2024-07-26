@@ -91,7 +91,11 @@
     "updates": [
       {
         "date": "2024-07-24T14:20",
-        "details": "Draining of failed disk underway, disk replacement to follow (estimate complete end of Thurs 25 Aug. Likely to be causing intermittent slow performance in these volumes."
+        "details": "Replacement partially completed, awaiting replacement of 1 server."
+      },
+      {
+        "date": "2024-07-24T14:20",
+        "details": "Draining of failed disk underway, disk replacement to follow. Likely to be causing intermittent slow performance in these volumes."
       }
     ]
   }
