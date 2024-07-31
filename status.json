@@ -26,6 +26,10 @@
     "summary": "Scheduled maintenance (I)",
     "updates": [
       {
+        "date": "2024-07-30T08:21",
+        "details": "Services currently closed for maintenance."
+      },
+      {
         "date": "2024-07-30T16:00",
         "details": "Tape services closed to users Tues 2024-07-30 16:00, anticipate reopening by Wed 2024-07-31 15:00. For completion of some work postponed from 22-24 Jul. "
       }
