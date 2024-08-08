@@ -65,12 +65,12 @@
   },
   {
     "affectedServices": "CEDA Archive",
-    "date": "2024-09-10T09:00",
+    "date": "2024-08-13T09:00",
     "status": "at risk",
     "summary": "Monthly scheduled CEDA Archive Services maintenance morning.",
     "updates": [
       {
-        "date": "2024-08-08T12:00",
+        "date": "2024-08-13T12:00",
         "details": "Scheduled CEDA Archive service maintenance is carried out between 9am and 11am."
       }
     ]
