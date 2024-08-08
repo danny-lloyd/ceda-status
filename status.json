@@ -26,6 +26,10 @@
     "summary": "Scheduled maintenance (II)",
     "updates": [
       {
+        "date": "2024-08-08T17:30",
+        "details": "Tape services still closed, positive progress made, awaiting further updates."
+      },
+      {
         "date": "2024-08-07T16:30",
         "details": "Tape services still closed for scheduled maintenance. Please await further updates."
       },
