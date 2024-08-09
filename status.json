@@ -103,7 +103,7 @@
     "updates": [
       {
         "date": "2024-08-14T10:30",
-        "details": "Proxy service for object store to be improved, should be no impact on users during the switch."
+        "details": "Proxy service for object store to be switched, should be no impact on users during the switch."
       }
     ]
   }
