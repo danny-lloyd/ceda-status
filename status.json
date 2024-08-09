@@ -22,9 +22,13 @@
   {
     "affectedServices": "Tape services (ET/JDMA/StorageD/NLA)",
     "date": "2024-08-05T08:00",
-    "status": "down",
+    "status": "resolved",
     "summary": "Scheduled maintenance (II)",
     "updates": [
+      {
+        "date": "2024-08-09T12:10",
+        "details": "Tape services restored to service. JDMA users will have to upgrade their client. Please see email from support@jasmin.ac.uk for more information."
+      },
       {
         "date": "2024-08-08T17:30",
         "details": "Tape services still closed, positive progress made, awaiting further updates."
