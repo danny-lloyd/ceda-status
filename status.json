@@ -94,5 +94,17 @@
         "details": "Draining of failed disk underway, disk replacement to follow. Likely to be causing intermittent slow performance in these volumes."
       }
     ]
+  },
+  {
+    "date": "2024-08-14T10:30",
+    "status": "at risk",
+    "affectedServices": "Object storage",
+    "summary": "Object store proxy switch",
+    "updates": [
+      {
+        "date": "2024-08-14T10:30",
+        "details": "Proxy service for object store to be improved, should be no impact on users during the switch."
+      }
+    ]
   }
 ]
