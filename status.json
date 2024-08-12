@@ -27,23 +27,8 @@
     "updates": [
       {
         "date": "2024-08-09T12:10",
-        "details": "Tape services restored to service. JDMA users will have to upgrade their client. Please see email from support@jasmin.ac.uk for more information."
-      },
-      {
-        "date": "2024-08-08T17:30",
-        "details": "Tape services still closed, positive progress made, awaiting further updates."
-      },
-      {
-        "date": "2024-08-07T16:30",
-        "details": "Tape services still closed for scheduled maintenance. Please await further updates."
-      },
-      {
-        "date": "2024-08-05T08:24",
-        "details": "Tape services now closed for scheduled maintenance. Please await further updates."
-      },
-      {
-        "date": "2024-07-30T16:00",
-        "details": "Tape services closed to users Mon 2024-08-05 08:00, anticipate reopening by Wed 2024-08-07 16:00."
+        "details": "Tape services restored to service. JDMA users will have to upgrade their client. Find out more here.",
+        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-08-12-update-jdma-client/"
       }
     ]
   },
