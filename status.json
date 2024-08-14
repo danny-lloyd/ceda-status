@@ -20,19 +20,6 @@
     ]
   },
   {
-    "affectedServices": "Tape services (ET/JDMA/StorageD/NLA)",
-    "date": "2024-08-05T08:00",
-    "status": "resolved",
-    "summary": "Scheduled maintenance (II)",
-    "updates": [
-      {
-        "date": "2024-08-09T12:10",
-        "details": "Tape services restored to service. JDMA users will have to upgrade their client. Find out more here.",
-        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-08-12-update-jdma-client/"
-      }
-    ]
-  },
-  {
     "affectedServices": "all",
     "date": "2024-10-08T07:00",
     "status": "at risk",
@@ -59,7 +46,7 @@
   {
     "affectedServices": "CEDA Archive",
     "date": "2024-08-13T09:00",
-    "status": "at risk",
+    "status": "resolved",
     "summary": "Monthly scheduled CEDA Archive Services maintenance morning.",
     "updates": [
       {
@@ -86,7 +73,7 @@
   },
   {
     "date": "2024-08-14T10:30",
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "Object storage",
     "summary": "Object store proxy switch",
     "updates": [
