@@ -74,5 +74,17 @@
         "details": "Mounts have now been unstuck and the notebook service and gws-access are operating normally."
       }
     ]
+  },
+  {
+    "affectedServices": "Object storage",
+    "date": "2024-08-21T08:00",
+    "status": "at risk",
+    "summary": "Reverting recent change to object store proxy.",
+    "updates": [
+      {
+        "date": "2024-08-21T08:00",
+        "details": "Scheduled reversal of changes made last week in response to problems accessing object store tenancies. Brief loss off access possible between 08:00 - 09:00 on Wed 21 August"
+      }
+    ]
   }
 ]
