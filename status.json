@@ -60,11 +60,15 @@
     ]
   },
   {
-    "affectedServices": "GWS Mounts: Notebook service and GWS Access",
+    "affectedServices": "GWS Mounts: Notebook and gws-access services",
     "date": "2024-08-19T13:52",
-    "status": "resolved",
-    "summary": "GWS mounts in notebook service and GWS access are hanging.",
+    "status": "degraded",
+    "summary": "GWS mounts in notebook service and gws-access service are hanging.",
     "updates": [
+      {
+        "date": "2024-08-21T14:45",
+        "details": "Problem is persisting: please report any issues to assist with debugging."
+      },
       {
         "date": "2024-08-19T13:52",
         "details": "Some mounts in the notebook service and GWS access service are stuck. This is causing the GWS access service to be unresponsive, and the notebook service to hang in some cases where a user tries to access a GWS mount."
