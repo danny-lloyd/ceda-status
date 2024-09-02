@@ -1,9 +1,9 @@
 [
   {
-    "affectedServices": "SOF storage",
-    "date": "2024-06-14T08:15",
     "status": "degraded",
+    "affectedServices": "SOF storage",
     "summary": "Issue affecting SOF storage used for /gws/nopw/j04/* workspaces & CEDA archive.",
+    "date": "2024-06-14T08:15",
     "updates": [
       {
         "date": "2024-06-24T09:25",
@@ -20,10 +20,10 @@
     ]
   },
   {
-    "affectedServices": "all",
-    "date": "2024-10-08T07:00",
     "status": "at risk",
+    "affectedServices": "all",
     "summary": "Electrical testing of fixed equipment",
+    "date": "2024-10-08T07:00",
     "updates": [
       {
         "date": "2024-06-27T14:00",
@@ -32,10 +32,10 @@
     ]
   },
   {
-    "affectedServices": "all",
-    "date": "2024-10-15T07:00",
     "status": "down",
+    "affectedServices": "all",
     "summary": "Quarterly scheduled maintenance day",
+    "date": "2024-10-15T07:00",
     "updates": [
       {
         "date": "2024-10-15T07:00",
@@ -44,10 +44,10 @@
     ]
   },
   {
-    "affectedServices": "PFS storage volumes /gws/pw/j07/*, /work/scratch-pw*, /work/xfc/*",
-    "date": "2024-07-24T14:20",
     "status": "degraded",
+    "affectedServices": "PFS storage volumes /gws/pw/j07/*, /work/scratch-pw*, /work/xfc/*",
     "summary": "Slow performance due to failed disk",
+    "date": "2024-07-24T14:20",
     "updates": [
       {
         "date": "2024-07-24T14:20",
@@ -60,10 +60,10 @@
     ]
   },
   {
-    "affectedServices": "GWS Mounts: GWS-access service",
-    "date": "2024-08-19T13:52",
     "status": "degraded",
+    "affectedServices": "GWS Mounts: GWS-access service",
     "summary": "GWS mounts in gws-access service are hanging.",
+    "date": "2024-08-19T13:52",
     "updates": [
       {
         "date": "2024-08-21T14:45",
@@ -76,38 +76,6 @@
       {
         "date": "2024-08-19T15:48",
         "details": "Mounts have now been unstuck and the notebook service and gws-access are operating normally."
-      }
-    ]
-  },
-  {
-    "affectedServices": "Object storage",
-    "date": "2024-08-21T08:00",
-    "status": "resolved",
-    "summary": "Reverting recent change to object store proxy.",
-    "updates": [
-      {
-        "date": "2024-08-21T11:00",
-        "details": "Reversal change has now been made: object store users should retry again now, if they were previously experiencing problems."
-      },
-      {
-        "date": "2024-08-21T09:50",
-        "details": "Awaiting confirmation that reversal of changes was successful: until then, connectivity problems may persist."
-      },
-      {
-        "date": "2024-08-21T08:00",
-        "details": "Scheduled reversal of changes made last week in response to problems accessing object store tenancies. Brief loss off access possible between 08:00 - 09:00 on Wed 21 August"
-      }
-    ]
-  },
-  {
-    "affectedServices": "sci3, sci6",
-    "date": "2024-08-29T10:00",
-    "status": "at risk",
-    "summary": "Scheduled maintenance involving reboot to apply security update.",
-    "updates": [
-      {
-        "date": "2024-08-29T10:00",
-        "details": "Update make take servers out of action for up to 2 hrs. Users may wish to try new Rocky 9 hosts sci-ph-01, sci-ph-02.jasmin.ac.uk instead."
       }
     ]
   }
