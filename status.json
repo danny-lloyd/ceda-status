@@ -78,5 +78,18 @@
         "details": "Mounts have now been unstuck and the notebook service and gws-access are operating normally."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "software: IDL v8.9",
+    "summary": "version 8.9 now available",
+    "date": "2024-09-06T16:30",
+    "updates": [
+      {
+        "date": "2024-09-06T16:30",
+        "details": "v8.9 now available but without full set of runtime licences. Ignore error message on startup.",
+        "url": "https://help.jasmin.ac.uk/docs/software-on-jasmin/idl/#making-efficient-use-of-idl-development-licences"
+      }
+    ]
   }
 ]
