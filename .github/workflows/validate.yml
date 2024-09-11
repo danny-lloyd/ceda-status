@@ -25,7 +25,7 @@ jobs:
           schema: statuspage.schema.json
 
           # optional, default: draft-04
-          schema-version: draft-04
+          schema-version: draft-06
 
           # optional, default: false
           print-valid-files: false
