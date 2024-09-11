@@ -1,0 +1,43 @@
+name: Validate JSON against schema
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate JSON
+        uses: walbo/validate-json@v1.1.0
+        with:
+          files: status.json
+
+          # optional, defaults to `$schema` in your JSON file
+          schema: statuspage.schema.json
+
+          # optional, default: draft-04
+          schema-version: draft-04
+
+          # optional, default: false
+          print-valid-files: false
+
+          # optional, default: false
+          fail-on-missing-schema: false
+
+          # optional, default: true
+          strict: true
+
+          # optional, default: false
+          allow-matching-properties: false
+
+          # optional, default: true
+          allow-union-types: true
