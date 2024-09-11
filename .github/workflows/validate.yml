@@ -13,31 +13,12 @@ on:
 
 jobs:
   validate:
+    permissions:
+        contents: read
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - name: Validate JSON
-        uses: walbo/validate-json@v1.1.0
+        uses: dsanders11/json-schema-validate-action@v1.2.0
         with:
-          files: status.json
-
-          # optional, defaults to `$schema` in your JSON file
           schema: statuspage.schema.json
-
-          # optional, default: draft-04
-          schema-version: draft-06
-
-          # optional, default: false
-          print-valid-files: false
-
-          # optional, default: false
-          fail-on-missing-schema: false
-
-          # optional, default: true
-          strict: true
-
-          # optional, default: false
-          allow-matching-properties: false
-
-          # optional, default: true
-          allow-union-types: true
+          files: '*.json'
