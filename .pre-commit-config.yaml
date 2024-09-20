@@ -9,6 +9,6 @@ repos:
     hooks:
       - id: validate
         name: validate
-        entry: poetry run testing_ceda_status/validate.py
+        entry: poetry run python testing_ceda_status/validate.py
         language: system
         types: [ json ]
