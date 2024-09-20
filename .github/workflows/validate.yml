@@ -32,4 +32,4 @@ jobs:
       - name: Run the validator
         run: |
           poetry install 
-          poetry run testing_ceda_status/validate.py
+          poetry run python testing_ceda_status/validate.py
