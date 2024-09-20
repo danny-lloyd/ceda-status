@@ -17,9 +17,19 @@ jobs:
     #    contents: read
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Validate JSON
-        uses: dsanders11/json-schema-validate-action@v1.2.0
-        with:
-          schema: statuspage.schema.json
-          files: status.json
+      - uses: actions/checkout@v4
+
+      - name: Install Poetry
+          run: |
+            pipx install poetry
+        - uses: actions/setup-python@v5
+          with:
+            python-version: "3.12"
+            cache: 'poetry'
+        - name: Install Dependencies
+          run: |
+            poetry env use 3.12
+        - name: Run the validator
+          run: |
+            poetry install 
+            poetry run testing_ceda_status/validate.py

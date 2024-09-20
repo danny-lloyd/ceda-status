@@ -1,0 +1,85 @@
+{
+  "$defs": {
+    "Incident": {
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/Status"
+        },
+        "affectedServices": {
+          "title": "Affectedservices",
+          "type": "string"
+        },
+        "summary": {
+          "title": "Summary",
+          "type": "string"
+        },
+        "date": {
+          "title": "Date",
+          "type": "string"
+        },
+        "updates": {
+          "items": {
+            "$ref": "#/$defs/Update"
+          },
+          "minItems": 1,
+          "title": "Updates",
+          "type": "array"
+        }
+      },
+      "required": [
+        "status",
+        "affectedServices",
+        "summary",
+        "date",
+        "updates"
+      ],
+      "title": "Incident",
+      "type": "object"
+    },
+    "Status": {
+      "enum": [
+        "down",
+        "resolved",
+        "degraded",
+        "at risk"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "Update": {
+      "properties": {
+        "date": {
+          "title": "Date",
+          "type": "string"
+        },
+        "details": {
+          "title": "Details",
+          "type": "string"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        }
+      },
+      "required": [
+        "date",
+        "details"
+      ],
+      "title": "Update",
+      "type": "object"
+    }
+  },
+  "items": {
+    "$ref": "#/$defs/Incident"
+  },
+  "title": "StatusPage",
+  "type": "array"
+}

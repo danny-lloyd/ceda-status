@@ -1,8 +1,7 @@
 {
-  "$id": "http://json-schema.org/draft-07/schema#",
-  "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "statuspage",
   "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema",
     "type": "array",
     "title": "StatusPage",
     "items": {
@@ -32,7 +31,7 @@
                 },
                 "date": {
                   "type": "string",
-                  "format": "datetime-local"
+                  "format": "date-time"
                 },
                 "updates": {
                   "type": "array",
@@ -52,7 +51,7 @@
           "properties": {
             "date": {
                 "type": "string",
-                "format": "datetime-local"
+                "format": "date-time"
             },
             "details": {
                 "type": "string"
