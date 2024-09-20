@@ -8,3 +8,4 @@ try:
     StatusPage.model_validate_json(status_page)
 except ValidationError as err:
     print(err)
+    exit(1)
