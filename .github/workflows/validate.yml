@@ -20,16 +20,16 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install Poetry
-          run: |
-            pipx install poetry
-        - uses: actions/setup-python@v5
-          with:
-            python-version: "3.12"
-            cache: 'poetry'
-        - name: Install Dependencies
-          run: |
-            poetry env use 3.12
-        - name: Run the validator
-          run: |
-            poetry install 
-            poetry run testing_ceda_status/validate.py
+        run: |
+          pipx install poetry
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: 'poetry'
+      - name: Install Dependencies
+        run: |
+          poetry env use 3.12
+      - name: Run the validator
+        run: |
+          poetry install 
+          poetry run testing_ceda_status/validate.py
