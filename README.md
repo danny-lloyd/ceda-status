@@ -24,6 +24,7 @@ Procedure:
 - **Option 1**: edit `status.json` manually (but you must follow the schema rules)
 - **Option 2**: use the JSON-Editor tool to edit the content with the help of a graphical form & validation against the schema
   - In the JSON-Editor, go to the **Schema** tab and upload or copy/paste the contents of the file `statuspage.schema.json`.
+  - Navigate to the **Form** tab, and press "Generate Form" at the top of the page
   - Go to the **Output** tab and copy/paste the content of the current `main` version of `status.json`. Overwrite any content (e.g. the brackets `[]` which may be there by default)
   - Navigate to the "Form" tab
   - Use the form to edit the status content and add new items as needed
