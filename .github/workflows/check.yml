@@ -9,6 +9,7 @@ on:
       - testing_ceda_status/**
   pull_request:
     branches: [ "main" ]
+    paths:
       - testing_ceda_status/**
 
   # Allows you to run this workflow manually from the Actions tab
